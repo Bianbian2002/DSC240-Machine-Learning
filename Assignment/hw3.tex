@@ -129,8 +129,36 @@ and the optimal solution
 Choose A if $\log \pi_1+\log p(x \mid A)>\log \pi_2+\log p(x \mid B)$.
 
     Since $\pi_1 = \pi_2, \Sigma_A = \Sigma_B$, we see the quadratic terms and prior terms cancel out. Therefore the decision boundry is linear.
+
+    \[p(A|x) = \frac{1}{1+e^{x^\top(\mu_B-\mu_A)+\frac{1}{2}(\|\mu_A\|^2 - \|\mu_B\|^2)}}, p(B|x) \text{ is obvious by symmetry.}\]
+
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=\linewidth]{Figures/hw3/q3a_boundary.png}
+    \end{figure}
 \end{proof}
 
+(b) 
+Decide A if $\delta(x)>0$, else decide B, where $\delta(x)=\left(\mu_1-\mu_2\right)^{\top} x-\frac{1}{2}\left(\left\|\mu_1\right\|^2-\left\|\mu_2\right\|^2\right)+\log \frac{p}{1-p}$.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/hw3/q3b_boundary.png}
+\end{figure}
+
+(c)
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/hw3/q3c_boundary.png}
+\end{figure}
+
+(d) The shape is an ellipse. 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/hw3/q3d_boundary.png}
+\end{figure}
+
+(e) 
 \begin{homework}
     (30 points): Naive Bayes Classifier vs Linear Classifier
 In this question, we have provided you with three carefully designed binary classification datasets (data-1.npy, data-2.npy, and data-3.npy).
@@ -140,4 +168,12 @@ In this question, we have provided you with three carefully designed binary clas
 
 (b) ( $\mathbf{1 5}$ points) Discuss why the Naive Bayes classifier and / or the linear classifier fail on each example. Justify your answers.
 \end{homework}
+
+\begin{proof}[\solutionname]
+    (b)data-1 (two lines; LR better): The class boundary is essentially linear. Logistic Regression fits a single straight separating hyperplane, which matches the geometry. GaussianNB assumes each class is Gaussian; if the data lie near thin lines, the Gaussian fit is a poor model, so its boundary can be biased.
+    
+data-2 (two ellipses; GNB better): The classes look like (possibly rotated) Gaussian clusters. GaussianNB models each class with a Gaussian and yields a curved/quadratic boundary, which fits elliptical structure. Logistic Regression is linear, so it cannot separate two ellipses well and underfits.
+
+data-3 (two circles; GNB better): The class boundary is nonlinear (roughly circular). Logistic Regression's linear boundary fails. GaussianNB still works because each class is approximately Gaussian around its center, producing a quadratic boundary that can match circular separation.
+\end{proof}
 \end{document}
