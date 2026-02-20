@@ -1,0 +1,363 @@
+\documentclass[en,hazy,blue,12pt,normal]{elegantnote}
+
+\input{preface}
+
+% (If your preface already loads these, it's still usually fine.)
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title{Winter 2026 DSC 240: Homework 2}
+\author{Zeyu Bian}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Academic Integrity}
+Did you receive any help whatsoever from anyone in solving this assignment? 
+
+No
+
+Did you give any help whatsoever to anyone in solving this assignment? 
+
+No
+
+\begin{homework}
+(15 points) The Hinge loss for a linear classifier is $\ell\left(w^T x, y\right):=\max \left\{0,1-y w^T x\right\}$. The shifted Hinge loss (aka Perceptron loss) for a linear classifier is $\ell\left(w^T x, y\right):=\max \left\{0,-y w^T x\right\}$.
+
+(a) Calculate the gradient of hinge loss with respect to $w$.
+(you can ignore the case when $w^T x=1$ )
+
+(b) Calculate the gradient of Perceptron loss w.r.t $w$
+(You may ignore the case when $w^T x=0$ )
+
+(c) What is the main difference in the SGD algorithm with the two losses above?
+
+\end{homework}
+
+\begin{proof}
+(a)
+Let $z = \omega^T x$
+Ignoring the boundary case $yz=1$:
+\[
+\nabla_w \ell(w^\top x,y) =
+\begin{cases}
+-yx, & yz < 1,\\
+0, & yz > 1,
+\end{cases}
+\quad\text{so}\quad
+\nabla_w \ell(w^\top x,y) = -yx\;\mathbf{1}[y w^\top x < 1].
+\]
+
+(b)Ignoring the boundary case $yz=0$:
+\[
+\nabla_w \ell(w^\top x,y) =
+\begin{cases}
+-yx, & yz < 0,\\
+0, & yz > 0,
+\end{cases}
+\quad\text{so}\quad
+\nabla_w \ell(w^\top x,y) = -yx\;\mathbf{1}[y w^\top x < 0].
+\]
+
+(c)With hinge loss, SGD updates whenever an example has margin $y w^\top x < 1$, so it also updates on correctly-classified points that are ``too close'' to the decision boundary (encouraging a margin). With perceptron loss, SGD updates only on misclassified points ($y w^\top x < 0$), and makes no update once a point is classified correctly.
+\end{proof}
+\begin{homework}
+    (20 points) Figure 1 shows training data with two features, with each example labeled as being in the positive (filled-in points) or negative (open points) class. Proposed linear classifier functions (C1 through C6) are shown as dotted lines, each one indicating a different classifier for this data. Each classifier classifies points to the upper-right of its dotted line as positive and points to the lower-left of its dotted line as negative.
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Figures//hw2/Q2.png}
+        \caption{Training data with two features, with each example labeled as being in the positive
+(filled-in points) or negative (open points) class.}
+        \label{fig: question2}
+    \end{figure}
+
+(a) Draw the ROC plot and label the classifiers on the plot.
+
+(b) Which classifiers have the highest and lowest accuracy?
+
+(c) Which classifiers have the highest and lowest precision?
+
+(d) What are F1 scores for classifiers C1-C6?
+\end{homework}
+
+\begin{proof}
+    From Figure 1, there are $P=16$ positive (filled) points and $N=9$ negative (open) points. Each classifier predicts the region upper-right of its dotted line as positive. As the line shifts from C6 (most strict) down to C1 (least strict), the number of predicted positives increases, tracing out the ROC curve.
+
+(a)
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures//hw2/Q2_ROC.png}
+    \caption{ROC plot}
+\end{figure}
+
+Confusion matrices and metrics (TPR = recall)
+
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Classifier & TP & FP & TN & FN & TPR & FPR & Accuracy & Precision & F1 \\
+\midrule
+C1 & 16 & 9 & 0 & 0 & 1.0000 & 1.0000 & 0.6400 & 0.6400 & 0.7805 \\
+C2 & 16 & 5 & 4 & 0 & 1.0000 & 0.5556 & 0.8000 & 0.7619 & 0.8649 \\
+C3 & 13 & 3 & 6 & 3 & 0.8125 & 0.3333 & 0.7600 & 0.8125 & 0.8125 \\
+C4 & 10 & 2 & 7 & 6 & 0.6250 & 0.2222 & 0.6800 & 0.8333 & 0.7143 \\
+C5 & 4 & 0 & 9 & 12 & 0.2500 & 0.0000 & 0.5200 & 1.0000 & 0.4000 \\
+C6 & 0 & 0 & 9 & 16 & 0.0000 & 0.0000 & 0.3600 & 0.0000 & 0.0000 \\
+\bottomrule
+\end{tabular}%
+
+（b）Highest accuracy: C2 (0.80). Lowest accuracy: C6 (0.36).
+
+(c)Highest precision: C5 $(1.00)$. Lowest precision (among predictors with >=1 positive): C1 $(0.64)$.
+
+(d)See the above table.
+\end{proof}
+
+\begin{homework}
+    (15 points) The decision boundary for a binary classifier that takes an input with three features is the plane defined by the equation $3 x_1+2 x_2+4 x_3=18$, where the features are $x_1, x_2$ and $x_3$. The plane separates the positive predictions $\left(3 x_1+2 x_2+4 x_3 \geq 18\right)$ from the negative predictions $\left(3 x_1+2 x_2+4 x_3<18\right)$.
+
+A dataset set $S$ consists of the following labeled examples:
+
+\begin{itemize}
+    \item $(2,2,3)+$ (positive class)
+    \item $(3,3,2)+$
+    \item $(1,2,3)+$
+    \item $(1,4,1)+$
+    \item $(4,4,4)+$
+    \item $(2,2,2)+$
+    \item (3, 3, 1)- (negative class)
+    \item (1, 1, 1)-
+    \item (3, 2, 2)-
+    \item $(0,4,2)$ -
+    \item $(4,0,0)$ -
+    \item $(0,0,3)$ -
+\end{itemize}
+For each data point, provide:
+
+(a) Its margin (distance from the decision boundary)
+
+(b) Its 0-1 loss
+
+(c) Its hinge loss
+
+(d) Its squared loss
+\end{homework}
+
+\begin{proof}
+    Let $w=(3,2,4)$ and define the signed score
+\[
+f(x) = w\cdot x - 18.
+\]
+The classifier predicts $+1$ if $f(x)\ge 0$, else $-1$. Also,
+\[
+\lVert w\rVert = \sqrt{3^2+2^2+4^2}=\sqrt{29}.
+\]
+Geometric margin (signed distance) is
+\[
+m(x,y)= \frac{y f(x)}{\lVert w\rVert},
+\]
+and the (unsigned) distance to the plane is $\frac{|f(x)|}{\lVert w\rVert}$.
+The losses:
+\begin{itemize}
+\item $0$--$1$ loss: $\mathbf{1}[y\ne \hat{y}]$.
+\item Hinge loss: $\max(0, 1 - y f(x))$.
+\item Squared loss (as used in this write-up): $(1 - y f(x))^2$.
+\end{itemize}
+
+\begin{tabular}{lrrrrrrr}
+\toprule
+$x$ & $y$ & $f(x)=w\cdot x-18$ & margin $y f/\lVert w\rVert$ & dist $|f|/\lVert w\rVert$ & 0-1 & hinge & squared \\
+\midrule
+$(2, 2, 3)$ & $+1$ & 4.0 & 0.7428 & 0.7428 & 0 & 0.0 & 9.0 \\
+$(3, 3, 2)$ & $+1$ & 5.0 & 0.9285 & 0.9285 & 0 & 0.0 & 16.0 \\
+$(1, 2, 3)$ & $+1$ & 1.0 & 0.1857 & 0.1857 & 0 & 0.0 & 0.0 \\
+$(1, 4, 1)$ & $+1$ & -3.0 & -0.5571 & 0.5571 & 1 & 4.0 & 16.0 \\
+$(4, 4, 4)$ & $+1$ & 18.0 & 3.3425 & 3.3425 & 0 & 0.0 & 289.0 \\
+$(2, 2, 2)$ & $+1$ & 0.0 & 0.0000 & 0.0000 & 0 & 1.0 & 1.0 \\
+$(3, 3, 1)$ & $-1$ & 1.0 & -0.1857 & 0.1857 & 1 & 2.0 & 4.0 \\
+$(1, 1, 1)$ & $-1$ & -9.0 & 1.6713 & 1.6713 & 0 & 0.0 & 64.0 \\
+$(3, 2, 2)$ & $-1$ & 3.0 & -0.5571 & 0.5571 & 1 & 4.0 & 16.0 \\
+$(0, 4, 2)$ & $-1$ & -2.0 & 0.3714 & 0.3714 & 0 & 0.0 & 1.0 \\
+$(4, 0, 0)$ & $-1$ & -6.0 & 1.1142 & 1.1142 & 0 & 0.0 & 25.0 \\
+$(0, 0, 3)$ & $-1$ & -6.0 & 1.1142 & 1.1142 & 0 & 0.0 & 25.0 \\
+\bottomrule
+\end{tabular}%
+
+\end{proof}
+\begin{homework}
+    (10 points) Recall the objective function for linear regression can be expressed as
+
+$$
+E(\mathbf{w})=\frac{1}{N}\|\mathbf{X w}-\mathbf{y}\|^2 .
+$$
+
+
+Minimizing this function with respect to $\mathbf{w}$ leads to the optimal $\mathbf{w}^*$ as $\left(\mathbf{X}^T \mathbf{X}\right)^{-1} \mathbf{X}^T \mathbf{y}$. This solution holds only when $\mathbf{X}^T \mathbf{X}$ is nonsingular (i.e., full rank or invertible). To overcome this problem, the following objective function is commonly minimized instead:
+
+$$
+E_2(\mathbf{w})=\frac{1}{N}\|\mathbf{X w}-\mathbf{y}\|^2+\lambda\|\mathbf{w}\|^2,
+$$
+
+where $\lambda>0$ is a user-specified parameter. Please do the following:
+
+(a) ( 5 points) Derive the optimal $\mathbf{w}^*$ that minimizes $E_2(\mathbf{w})$.
+
+(b) ( 5 points) Explain how this new objective function can overcome the singularity problem of $\mathbf{X}^T \mathbf{X}$. [Hint: Think about positive definite and positive semi-definite definitions.]
+\end{homework}
+
+\begin{proof}
+    (a)We minimize
+\[
+E_2(w)=\frac{1}{N}\lVert Xw-y\rVert^2 + \lambda \lVert w\rVert^2,\qquad \lambda>0.
+\]
+Compute the gradient and set it to zero:
+\[
+\nabla_w E_2(w) = \frac{2}{N}X^\top(Xw-y) + 2\lambda w = 0.
+\]
+Rearrange:
+\[
+X^\top X w - X^\top y + N\lambda w = 0
+\quad\Rightarrow\quad
+(X^\top X + N\lambda I)w = X^\top y.
+\]
+Thus,
+\[
+w^\ast = (X^\top X + N\lambda I)^{-1}X^\top y.
+\]
+
+(b)
+$X^\top X$ is always symmetric positive semidefinite, and can be singular if $X$ is not full rank. Adding $N\lambda I$ makes the matrix strictly positive definite: for any nonzero vector $v$,
+\[
+v^\top (X^\top X + N\lambda I)v = v^\top X^\top X v + N\lambda v^\top v = \lVert Xv\rVert^2 + N\lambda \lVert v\rVert^2 > 0.
+\]
+Therefore $X^\top X + N\lambda I$ is positive definite and hence invertible, so the closed-form solution exists even when $X^\top X$ is singular.
+\end{proof}
+
+
+\begin{homework}
+    (20 points) In a linear regression task, implement a gradient solver and a stochastic gradient solver for (a) least squares regression (lsqr) and (b) ridge regression (least squares with $\ell_2$ norm regularization) the given dataset files data\_X\_Q5Q6.npy and data\_y\_Q5Q6.npy. For both lsqr and ridge, compare the result models from the two optimizers (gradient descent and stochastic gradient descent) and the closed-form solutions (where we set gradient to zero and solved the equation), using the $\ell_2$-norm distance to measure the difference between the two solutions. Please refer to the Appendix section for instructions on how to load the dataset files in python.
+
+    Deliverables:
+Code: Your implementation of gradient solver, stochastic gradient solver, and closed form solver. Your code then load the given dataset(data-*.npy), and your code that computes solutions using 3 solvers. Finally, your code that compares weights and reports $\ell_2$-norm distance for each pair. Repeat this whole process with and without regularization.
+
+PDF: Result of the $\ell_2$-norm distance of weights between 3 comparisons: GD vs SGD, GD vs closed-form, and SGD vs closed-form. Repeat this whole process with and without regularization.
+
+Hyper-parameters and Dataset: Load the data to use in the questions from the directory. For regularization parameters, we suggest $1 e-6$.
+\end{homework}
+
+\begin{proof}
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Q5_results.png}
+        \caption{L2 distance}
+        \label{fig:placeholder}
+    \end{figure}
+\end{proof}
+\newpage
+\begin{homework}
+    (10 points) Use the given dataset files data\_X\_Q5Q6.npy and data\_y\_Q5Q6.npy to compute the objective functions (lsqr and ridge, respectively). Plot the learning curve ( $x$-axis: iteration number, $y$-axis: objective function). Note that when computing the objective function, $E(w(t))$, you should use all the data points, for both gradient descent and stochastic gradient descent. Please refer to the Appendix section for instructions on how to load the dataset files in python.
+Deliverables:
+Code: Using previous implemented solvers and given datasets to generate the curves (with and without regularization; gradient descent and stochastic gradient descent).
+PDF: The result as curves.
+\end{homework}
+
+\begin{proof}
+    Results:
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Figures/hw2/q6_lsqr_gd_vs_sgd.png}
+        \caption{lsqr\_gd\_vs\_sgd}
+        \label{fig:placeholder}
+    \end{figure}
+
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Figures/hw2/q6_ridge_gd_vs_sgd.png}
+        \caption{ridge\_gd\_vs\_sgd}
+        \label{fig:placeholder}
+    \end{figure}
+    
+\end{proof}
+\newpage
+
+\begin{homework}
+    (10 points) Previously, stochastic gradient descent we introduced uses 1 data point in each iteration to estimate the gradient. In fact, the stochastic gradient descent can use a batch of data points to estimate/compute the gradient to accelerate the convergence speed. Implement batched version gradient descent for ridge regression. For this question, use the corresponding dataset files data\_X\_Q7.npy and data\_y\_Q7.npy. Plot the learning curve (again as in Q6, this is objective function against number of iterations) of stochastic gradient descent with batch size of $[1,10,100]$. Please refer to the Appendix section for instructions on how to load the dataset files in python.
+Deliverables:
+Code: Stochastic gradient descent with different batch sizes.
+PDF: 3 Convergence graphs with different batch sizes.
+\end{homework}
+\begin{proof}
+    Convergence graph:
+        \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.8\linewidth]{Figures/hw2/q7_ridge_sgd_batch1.png}
+        \caption{ridge\_sgd\_batch1}
+        \label{fig:placeholder}
+    \end{figure}
+
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.8\linewidth]{Figures/hw2/q7_ridge_sgd_batch10.png}
+        \caption{ridge\_sgd\_batch10}
+        \label{fig:placeholder}
+    \end{figure}
+
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width=0.8\linewidth]{Figures/hw2/q7_ridge_sgd_batch100.png}
+        \caption{ridge\_sgd\_batch100}
+        \label{fig:placeholder}
+    \end{figure}
+\end{proof}
+\newpage
+\begin{homework}
+    (Bonus 12 points) Consider the hat matrix $\mathbf{H}=\mathbf{X}\left(\mathbf{X}^T \mathbf{X}\right)^{-1} \mathbf{X}^T$, where $\mathbf{X}$ is an $N$ by $d+1$ matrix, and $\mathbf{X}^T \mathbf{X}$ is invertible.
+    
+(a) ( 3 points) Show that $\mathbf{H}$ is symmetric.
+
+(b) ( 3 points) Show that $\mathbf{H}^K=\mathbf{H}$ for any positive integer $K$.
+
+(c) (3 points) If $\mathbf{I}$ is the identity matrix of size $N$, show that $(\mathbf{I}-\mathbf{H})^K=\mathbf{I}-\mathbf{H}$ for any positive integer $K$.
+
+(d) (3 points) Show that trace $(\mathbf{H})=d+1$, where the trace is the sum of diagonal elements. [Hint: trace $(\mathbf{A B})=\operatorname{trace}(\mathbf{B A})$ for any matrices $A, B$ of compatible sizes]
+\end{homework}
+
+\begin{proof}
+    Let $H = X (X^\top X)^{-1}X^\top$, with $X^\top X$ invertible.
+
+(a) $H$ is symmetric
+\[
+H^\top = \bigl(X (X^\top X)^{-1}X^\top\bigr)^\top = X\bigl((X^\top X)^{-1}\bigr)^\top X^\top.
+\]
+Since $X^\top X$ is symmetric, $(X^\top X)^{-1}$ is also symmetric, so $\bigl((X^\top X)^{-1}\bigr)^\top=(X^\top X)^{-1}$. Hence $H^\top=H$.
+
+(b) $H^K = H$ for any positive integer $K$
+First show idempotence:
+\begin{align*}
+H^2
+&= X (X^\top X)^{-1}X^\top X (X^\top X)^{-1}X^\top \\
+&= X (X^\top X)^{-1}(X^\top X)(X^\top X)^{-1}X^\top \\
+&= X (X^\top X)^{-1}X^\top \\
+&= H.
+\end{align*}
+Therefore $H^K=H$ for any integer $K\ge 1$ (by induction).
+
+(c) $(I-H)^K = I-H$ for any positive integer $K$
+Using $H^2=H$:
+\[
+(I-H)^2 = I - 2H + H^2 = I - 2H + H = I-H,
+\]
+so $(I-H)$ is also idempotent. Hence $(I-H)^K = I-H$ for any integer $K\ge 1$.
+
+(d) $\mathrm{trace}(H)=d+1$
+Using $\mathrm{trace}(AB)=\mathrm{trace}(BA)$ for compatible matrices:
+\[
+\mathrm{trace}(H) = \mathrm{trace}\bigl(X (X^\top X)^{-1}X^\top\bigr)
+= \mathrm{trace}\bigl((X^\top X)^{-1}X^\top X\bigr)
+= \mathrm{trace}(I_{d+1}) = d+1.
+\]
+\end{proof}
+\end{document}

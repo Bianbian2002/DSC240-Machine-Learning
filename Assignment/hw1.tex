@@ -1,0 +1,752 @@
+\documentclass[en,hazy,blue,12pt,normal]{elegantnote}
+
+\input{preface}
+
+% (If your preface already loads these, it's still usually fine.)
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title{Winter 2026 DSC 240: Homework 1}
+\author{Zeyu Bian}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Academic Integrity}
+Did you receive any help whatsoever from anyone in solving this assignment? 
+
+No
+
+Did you give any help whatsoever to anyone in solving this assignment? 
+
+No
+
+\begin{homework}
+    Given
+\[
+A=
+\begin{bmatrix}
+4 & 1 & 3 & 6\\
+2 & 7 & 5 & 3
+\end{bmatrix},\quad
+B=
+\begin{bmatrix}
+0 & 4\\
+7 & 6\\
+5 & 8\\
+3 & 11
+\end{bmatrix},\quad
+C=
+\begin{bmatrix}
+-13 & 0 & 2\\
+5 & 2 & 10\\
+0 & 7 & 9
+\end{bmatrix},
+\]
+\[
+D=
+\begin{bmatrix}
+5 & -3 & -7\\
+4 & 0 & 10\\
+7 & 3 & 11
+\end{bmatrix},\quad
+E=
+\begin{bmatrix}
+-4 & 5\\
+12 & 7
+\end{bmatrix}.
+\]
+\end{homework}
+
+\begin{proof}[\solutionname]
+\begin{enumerate}
+\item[(a)] Compute $(3B)^T$.
+\[
+3B=
+\begin{bmatrix}
+0 & 12\\
+21 & 18\\
+15 & 24\\
+9 & 33
+\end{bmatrix}
+\quad\Longrightarrow\quad
+(3B)^T=
+\begin{bmatrix}
+0 & 21 & 15 & 9\\
+12 & 18 & 24 & 33
+\end{bmatrix}.
+\]
+
+\item[(b)] Compute $(A-B)^T$.
+
+This is \textbf{not defined} since $A\in\mathbb{R}^{2\times 4}$ and $B\in\mathbb{R}^{4\times 2}$, so $A-B$ is not defined (dimensions do not match).
+
+\item[(c)] Compute $(2B^T-A)^T$.
+
+First,
+\[
+B^T=
+\begin{bmatrix}
+0 & 7 & 5 & 3\\
+4 & 6 & 8 & 11
+\end{bmatrix}
+\quad\Rightarrow\quad
+2B^T=
+\begin{bmatrix}
+0 & 14 & 10 & 6\\
+8 & 12 & 16 & 22
+\end{bmatrix}.
+\]
+Then
+\[
+2B^T-A=
+\begin{bmatrix}
+0-4 & 14-1 & 10-3 & 6-6\\
+8-2 & 12-7 & 16-5 & 22-3
+\end{bmatrix}
+=
+\begin{bmatrix}
+-4 & 13 & 7 & 0\\
+6 & 5 & 11 & 19
+\end{bmatrix}.
+\]
+Therefore,
+\[
+(2B^T-A)^T=
+\begin{bmatrix}
+-4 & 6\\
+13 & 5\\
+7 & 11\\
+0 & 19
+\end{bmatrix}.
+\]
+
+\item[(d)] Compute $(C+2D^T+E)^T$.
+
+This is \textbf{not defined} because $C\in\mathbb{R}^{3\times 3}$ and $D^T\in\mathbb{R}^{3\times 3}$, but $E\in\mathbb{R}^{2\times 2}$, so $C+2D^T+E$ is not defined.
+
+\item[(e)] Compute $(-A)^T E$.
+
+We have
+\[
+(-A)^T=
+-\begin{bmatrix}
+4 & 2\\
+1 & 7\\
+3 & 5\\
+6 & 3
+\end{bmatrix}
+=
+\begin{bmatrix}
+-4 & -2\\
+-1 & -7\\
+-3 & -5\\
+-6 & -3
+\end{bmatrix}.
+\]
+Thus
+\[
+(-A)^T E
+=
+\begin{bmatrix}
+-4 & -2\\
+-1 & -7\\
+-3 & -5\\
+-6 & -3
+\end{bmatrix}
+\begin{bmatrix}
+-4 & 5\\
+12 & 7
+\end{bmatrix}
+=
+\begin{bmatrix}
+-8 & -34\\
+-80 & -54\\
+-48 & -50\\
+-12 & -51
+\end{bmatrix}.
+\]
+(Example check: first row is $[-4,-2]E = [(-4)(-4)+(-2)(12),\,(-4)(5)+(-2)(7)] = [-8,-34]$.)
+\end{enumerate}
+
+\end{proof}
+
+\begin{homework}
+    
+Let
+\[
+A=
+\begin{bmatrix}
+2 & 7 & 3\\
+1 & 0 & 9\\
+-1 & 2 & 10
+\end{bmatrix},
+\quad
+B=
+\begin{bmatrix}
+-2 & 0 & 3\\
+2 & -1 & 7\\
+6 & 4 & -3
+\end{bmatrix}.
+\]
+\end{homework}
+
+\begin{proof}
+    Compute
+\[
+AB=
+\begin{bmatrix}
+28 & 5 & 46\\
+52 & 36 & -24\\
+66 & 38 & -19
+\end{bmatrix},
+\qquad
+BA=
+\begin{bmatrix}
+-7 & -8 & 24\\
+-4 & 28 & 67\\
+19 & 36 & 24
+\end{bmatrix}.
+\]
+Since $AB \neq BA$ (e.g., the $(1,1)$ entry is $28$ in $AB$ but $-7$ in $BA$), we conclude \textbf{$AB\neq BA$}.
+\end{proof}
+
+\begin{homework}
+    Compute the $\ell_1 / \ell_2 / \ell_{\infty}$ norms of the following vectors:
+\end{homework}
+
+\begin{proof}
+    \begin{itemize}
+\item For $v=[0,0,0]$:
+\[
+\|v\|_1=0,\quad \|v\|_2=0,\quad \|v\|_\infty=0.
+\]
+
+\item For $v=[1,2,3]$:
+\[
+\|v\|_1=|1|+|2|+|3|=6,\quad
+\|v\|_2=\sqrt{1^2+2^2+3^2}=\sqrt{14},\quad
+\|v\|_\infty=\max\{1,2,3\}=3.
+\]
+
+\item For $v=[2,4,6]$:
+\[
+\|v\|_1=|2|+|4|+|6|=12,\quad
+\|v\|_2=\sqrt{2^2+4^2+6^2}=\sqrt{56}=2\sqrt{14},\quad
+\|v\|_\infty=\max\{2,4,6\}=6.
+\]
+These are exactly $2$ times the corresponding norms of $[1,2,3]$, because norms are homogeneous:
+\[
+\|2u\| = 2\|u\|\quad \text{for } \ell_1,\ell_2,\ell_\infty.
+\]
+
+\item Can a vector have negative norms?
+
+\textbf{No.} By definition, $\|v\|_1=\sum_i |v_i|\ge 0$, $\|v\|_2=\sqrt{\sum_i v_i^2}\ge 0$, and $\|v\|_\infty=\max_i |v_i|\ge 0$. In general, a norm must satisfy non-negativity: $\|v\|\ge 0$ for all $v$.
+\end{itemize}
+\end{proof}
+
+\begin{homework}
+    Given $X=\left[\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n\right] \in \mathbb{R}^{m \times n}$ where $\mathbf{x}_i \in \mathbb{R}^m$ for all $i$, and $Y^T= \left[\mathbf{y}_1, \mathbf{y}_2, \cdots, \mathbf{y}_n\right] \in \mathbb{R}^{p \times n}$ where $\mathbf{y}_i \in \mathbb{R}^p$ for all $i$. Show that
+
+$$
+X Y=\sum_{i=1}^n \mathbf{x}_i\left(\mathbf{y}_i\right)^T
+$$
+\end{homework}
+
+\begin{proof}
+    Let $X=[x_1,x_2,\dots,x_n]\in\mathbb{R}^{m\times n}$ where each $x_i\in\mathbb{R}^m$, and suppose
+\[
+Y^T = [y_1,y_2,\dots,y_n]\in\mathbb{R}^{p\times n}
+\quad\Longrightarrow\quad
+Y=
+\begin{bmatrix}
+y_1^T\\
+y_2^T\\
+\vdots\\
+y_n^T
+\end{bmatrix}\in\mathbb{R}^{n\times p}.
+\]
+
+Using block-matrix multiplication,
+\[
+XY = [x_1,\dots,x_n]
+\begin{bmatrix}
+y_1^T\\
+y_2^T\\
+\vdots\\
+y_n^T
+\end{bmatrix}
+=
+x_1y_1^T + x_2y_2^T + \cdots + x_n y_n^T
+=
+\sum_{i=1}^n x_i y_i^T.
+\]
+Each term $x_i y_i^T$ is an $m\times p$ outer product, so the sum is well-defined and has size $m\times p$.
+\end{proof}
+
+
+\begin{homework}
+     Given $X \in \mathbb{R}^{m \times n}$, show that the matrix $X^T X$ is symmetric and positive semidefinite. When is it positive definite? (Hint: you may use the results in Q4.)
+\end{homework}
+
+
+\begin{proof}
+\textbf{Symmetric:}
+\[
+(X^T X)^T = X^T (X^T)^T = X^T X.
+\]
+
+\textbf{Positive semi-definite:} For any $v\in\mathbb{R}^n$,
+\[
+v^T (X^T X) v = (Xv)^T (Xv) = \|Xv\|_2^2 \ge 0.
+\]
+Hence $X^T X$ is PSD.
+
+\textbf{When is it positive definite?}
+$X^T X$ is PD iff $v^T X^T X v > 0$ for all $v\neq 0$. But
+\[
+v^T X^T X v = \|Xv\|_2^2,
+\]
+so this is $>0$ for all $v\neq 0$ exactly when $Xv\neq 0$ for all $v\neq 0$, i.e.\ when $\mathrm{Null}(X)=\{0\}$.
+Equivalently, $X$ has \textbf{full column rank} ($\mathrm{rank}(X)=n$).
+\end{proof}
+
+\begin{homework}
+    Given $g(x, y)=e^{(x+y)}+e^{3 x y}+e^{y^4}$, compute $\frac{\partial g}{\partial x}$ and $\frac{\partial g}{\partial y}$.
+\end{homework}
+
+\begin{proof}
+    Given
+\[
+g(x,y)=e^{x+y}+e^{3xy}+e^{y^4},
+\]
+we have
+\[
+\frac{\partial g}{\partial x} = e^{x+y} + (3y)e^{3xy},
+\qquad
+\frac{\partial g}{\partial y} = e^{x+y} + (3x)e^{3xy} + (4y^3)e^{y^4}.
+\]
+\end{proof}
+
+\begin{homework}
+    Consider the matrix
+
+$$
+A=\left(\begin{array}{ll}
+1 & 4 \\
+2 & 3
+\end{array}\right),
+$$
+\end{homework}
+
+\begin{proof}
+    \subsection*{(a) Eigenvalues and eigenvectors}
+The characteristic polynomial is
+\[
+\det(A-\lambda I)=
+\det\begin{pmatrix}
+1-\lambda & 4\\
+2 & 3-\lambda
+\end{pmatrix}
+=(1-\lambda)(3-\lambda)-8
+=\lambda^2-4\lambda-5.
+\]
+So
+\[
+\lambda^2-4\lambda-5=0
+\quad\Rightarrow\quad
+\lambda=\frac{4\pm\sqrt{16+20}}{2}
+=\frac{4\pm 6}{2}
+\in\{5,-1\}.
+\]
+
+For $\lambda=5$, solve $(A-5I)v=0$:
+\[
+A-5I=
+\begin{pmatrix}
+-4 & 4\\
+2 & -2
+\end{pmatrix}
+\Rightarrow -4v_1+4v_2=0 \Rightarrow v_1=v_2,
+\]
+so one eigenvector is $v^{(1)}=\begin{bmatrix}1\\1\end{bmatrix}$.
+
+For $\lambda=-1$, solve $(A+I)v=0$:
+\[
+A+I=
+\begin{pmatrix}
+2 & 4\\
+2 & 4
+\end{pmatrix}
+\Rightarrow 2v_1+4v_2=0 \Rightarrow v_1=-2v_2,
+\]
+so one eigenvector is $v^{(2)}=\begin{bmatrix}-2\\1\end{bmatrix}$.
+
+\textbf{Python code used to compute eigenvectors (using the hand-computed eigenvalues):}
+\begin{verbatim}
+import sympy as sp
+
+A = sp.Matrix([[1,4],[2,3]])
+lam1, lam2 = 5, -1      # computed by hand
+
+v1 = (A - lam1*sp.eye(2)).nullspace()[0]
+v2 = (A - lam2*sp.eye(2)).nullspace()[0]
+
+print(v1)  # ~ [1, 1]^T
+print(v2)  # ~ [-2, 1]^T
+\end{verbatim}
+
+\subsection*{(b) Eigen-decomposition}
+Let
+\[
+Q=\begin{bmatrix} 1 & -2\\ 1 & 1\end{bmatrix},
+\qquad
+\Lambda=\begin{bmatrix}5&0\\0&-1\end{bmatrix}.
+\]
+Then $\det(Q)=1\cdot 1-(-2)\cdot 1=3$, hence
+\[
+Q^{-1}=\frac{1}{3}\begin{bmatrix}1&2\\-1&1\end{bmatrix}.
+\]
+Therefore, an eigen-decomposition is
+\[
+A = Q\Lambda Q^{-1}.
+\]
+
+\subsection*{(c) Rank of $A$}
+\[
+\det(A)=1\cdot 3 - 4\cdot 2 = 3-8=-5\neq 0
+\quad\Rightarrow\quad \mathrm{rank}(A)=2.
+\]
+
+\subsection*{(d) Is $A$ positive definite?}
+No. A standard requirement for (real) positive definiteness is that $A$ be symmetric, but $A\neq A^T$.
+Also, we can directly find a vector $x$ with $x^T A x<0$:
+take $x=\begin{bmatrix}-2\\1\end{bmatrix}$, then
+\[
+Ax=\begin{bmatrix}1&4\\2&3\end{bmatrix}\begin{bmatrix}-2\\1\end{bmatrix}
+=\begin{bmatrix}2\\-1\end{bmatrix},
+\quad
+x^T Ax = [-2,\,1]\begin{bmatrix}2\\-1\end{bmatrix}=-5<0.
+\]
+So $A$ is \textbf{not} positive definite.
+
+\subsection*{(e) Is $A$ positive semi-definite?}
+No, since we already found $x$ such that $x^T A x=-5<0$. PSD would require $x^T A x\ge 0$ for all $x$.
+
+\subsection*{(f) Is $A$ singular?}
+No, because $\det(A)=-5\neq 0$.
+
+\end{proof}
+\begin{homework}
+   Consider the linear classifier in two dimensions: $h(\mathbf{x})=\operatorname{sign}\left(\mathbf{w}^T \mathbf{x}\right)$ where $\mathbf{w}=\left[w_0, w_1, w_2\right]^T$ and $\mathbf{x}=\left[1, x_1, x_2\right]^T$. Technically, $\mathbf{x}$ has three coordinates, but we call this feature vector two-dimensional because the first coordinate is fixed at 1 .
+\end{homework}
+
+\begin{proof}
+    Let $w=[w_0,w_1,w_2]^T$ and $x=[1,x_1,x_2]^T$. Then
+\[
+w^T x = w_0 + w_1 x_1 + w_2 x_2.
+\]
+
+
+\subsection*{(a) Boundary is a line; slope/intercept}
+The decision boundary occurs where $w^T x = 0$, i.e.
+\[
+w_0 + w_1 x_1 + w_2 x_2 = 0.
+\]
+If $w_2\neq 0$, we can solve for $x_2$:
+\[
+x_2 = -\frac{w_1}{w_2}x_1 - \frac{w_0}{w_2}.
+\]
+Thus the line $x_2=ax_1+b$ has
+\[
+a=-\frac{w_1}{w_2},\qquad b=-\frac{w_0}{w_2}.
+\]
+(If $w_2=0$ and $w_1\neq 0$, the boundary is the vertical line $x_1=-w_0/w_1$.)
+
+\subsection*{(b) Plot for $w=[1,2,3]^T$ and $w=-[1,2,3]^T$}
+For $w=[1,2,3]^T$, the boundary is
+\[
+1+2x_1+3x_2=0
+\quad\Rightarrow\quad
+x_2 = -\frac{2}{3}x_1 - \frac{1}{3}.
+\]
+For $-w$, the boundary is the same line (multiplying $w$ by $-1$ flips the labels of the two regions).
+
+\textbf{Python code (saves plots to PNG files):}
+\begin{verbatim}
+import numpy as np
+import matplotlib.pyplot as plt
+
+def plot_regions(w, filename, title):
+    w0, w1, w2 = w
+    x1 = np.linspace(-5, 5, 400)
+    x2 = np.linspace(-5, 5, 400)
+    X1, X2 = np.meshgrid(x1, x2)
+    scores = w0 + w1*X1 + w2*X2
+    preds = np.sign(scores)
+
+    plt.figure(figsize=(6,5))
+    plt.contourf(X1, X2, preds, levels=[-1,0,1], alpha=0.2)
+
+    if abs(w2) > 1e-12:
+        boundary = -(w0 + w1*x1)/w2
+        plt.plot(x1, boundary, linewidth=2)
+    elif abs(w1) > 1e-12:
+        plt.axvline(-w0/w1, linewidth=2)
+
+    plt.xlabel("x1"); plt.ylabel("x2")
+    plt.title(title)
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    plt.savefig(filename, dpi=200)
+    plt.close()
+
+plot_regions(np.array([1,2,3], dtype=float),  "q8_w_pos.png", "w=[1,2,3]^T")
+plot_regions(np.array([-1,-2,-3], dtype=float), "q8_w_neg.png", "w=-[1,2,3]^T")
+\end{verbatim}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{Figures/hw1/q8_combined.png}
+\caption{Decision regions for $w=[1,2,3]^T$ (left) and $w=-[1,2,3]^T$ (right). The boundary line is the same; the labels of the two half-planes flip.}
+\end{figure}
+\end{proof}
+
+
+\begin{homework}
+     In this problem, we explore the perceptron learning algorithm further with data sets of different sizes and dimensions. Please include your code (.py or .ipynb) in your submission, and include your plots and explanations in the PDF you submit.
+\end{homework}
+
+\begin{proof}
+    \textbf{Setup:} I used the provided data-generation rule with margin $0.2$ and fixed random seeds for reproducibility.
+The target boundary from the generator is $x_1+x_2=0$ (i.e.\ $x_2=-x_1$), since class $0$ points satisfy $x_1+x_2>\text{margin}$ and class $1$ points satisfy $x_1+x_2<-\text{margin}$.
+
+\subsection*{Python code (data + perceptron + plotting)}
+\begin{verbatim}
+import numpy as np
+import matplotlib.pyplot as plt
+
+def GenerateData(margin, number, seed=None):
+    if seed is not None:
+        np.random.seed(seed)
+    data = []
+    i = 0
+    while i < number:
+        point = np.random.randn(2, 1)
+        s = point[0,0] + point[1,0]
+        if s - margin > 0:
+            data.append([point, 0])
+            i += 1
+        elif s + margin < 0:
+            data.append([point, 1])
+            i += 1
+    return data
+
+def perceptron(data, max_updates=100000):
+    # map label: 0 -> +1, 1 -> -1
+    X, y = [], []
+    for p, lab in data:
+        X.append(np.array([1.0, p[0,0], p[1,0]]))
+        y.append(1 if lab == 0 else -1)
+    X = np.stack(X)
+    y = np.array(y)
+
+    w = np.zeros(3)
+    updates = 0
+    while updates < max_updates:
+        mistakes = 0
+        for xi, yi in zip(X, y):
+            if yi * np.dot(w, xi) <= 0:
+                w = w + yi * xi
+                updates += 1
+                mistakes += 1
+                if updates >= max_updates:
+                    break
+        if mistakes == 0:
+            break
+    return w, updates
+
+def plot_result(data, w, filename, title):
+    pts = np.array([p.flatten() for p,lab in data])
+    labs = np.array([lab for p,lab in data])
+
+    pad = 1.0
+    x_min, x_max = pts[:,0].min()-pad, pts[:,0].max()+pad
+    y_min, y_max = pts[:,1].min()-pad, pts[:,1].max()+pad
+
+    plt.figure(figsize=(6,5))
+    plt.scatter(pts[labs==0,0], pts[labs==0,1], marker='o', label="class 0")
+    plt.scatter(pts[labs==1,0], pts[labs==1,1], marker='x', label="class 1")
+
+    xs = np.linspace(x_min, x_max, 200)
+    plt.plot(xs, -xs, linewidth=2, label="target f: x2=-x1")
+
+    w0, w1, w2 = w
+    if abs(w2) > 1e-12:
+        plt.plot(xs, -(w0 + w1*xs)/w2, '--', linewidth=2, label="perceptron g")
+
+    plt.xlim(x_min, x_max); plt.ylim(y_min, y_max)
+    plt.xlabel("x1"); plt.ylabel("x2")
+    plt.title(title)
+    plt.grid(True, alpha=0.3)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(filename, dpi=200)
+    plt.close()
+
+margin = 0.2
+data20a = GenerateData(margin, 20, seed=0)
+w20a, upd20a = perceptron(data20a)
+plot_result(data20a, w20a, "q9_b_seed0_n20.png", f"n=20, seed=0, updates={upd20a}")
+
+data20b = GenerateData(margin, 20, seed=1)
+w20b, upd20b = perceptron(data20b)
+plot_result(data20b, w20b, "q9_c_seed1_n20.png", f"n=20, seed=1, updates={upd20b}")
+
+data100 = GenerateData(margin, 100, seed=2)
+w100, upd100 = perceptron(data100)
+plot_result(data100, w100, "q9_d_seed2_n100.png", f"n=100, seed=2, updates={upd100}")
+
+data1000 = GenerateData(margin, 1000, seed=3)
+w1000, upd1000 = perceptron(data1000)
+plot_result(data1000, w1000, "q9_e_seed3_n1000.png", f"n=1000, seed=3, updates={upd1000}")
+\end{verbatim}
+
+\subsection*{(a) Data set of size 20; target function}
+A valid target function is
+\[
+f(x)=\mathrm{sign}(x_1+x_2),
+\]
+with decision boundary $x_1+x_2=0$ (i.e.\ $x_2=-x_1$).
+
+\subsection*{(b)--(e) Perceptron results (with margin $0.2$ and fixed seeds)}
+With my fixed seeds, the number of perceptron updates until convergence were:
+\[
+\text{(b) } n=20,\ \text{seed}=0:\ 8 \text{ updates},\qquad
+\text{(c) } n=20,\ \text{seed}=1:\ 9 \text{ updates},
+\]
+\[
+\text{(d) } n=100,\ \text{seed}=2:\ 4 \text{ updates},\qquad
+\text{(e) } n=1000,\ \text{seed}=3:\ 6 \text{ updates}.
+\]
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.70\linewidth]{Figures/hw1/q9_b_seed0_n20.png}
+\caption{Q9(b): $n=20$ (seed 0). Points, target $f$, and final perceptron hypothesis $g$.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.70\linewidth]{Figures/hw1/q9_c_seed1_n20.png}
+\caption{Q9(c): another $n=20$ run (seed 1).}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.70\linewidth]{Figures/hw1/q9_d_seed2_n100.png}
+\caption{Q9(d): $n=100$ (seed 2).}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.70\linewidth]{Figures/hw1/q9_e_seed3_n1000.png}
+\caption{Q9(e): $n=1000$ (seed 3).}
+\end{figure}
+
+\textbf{Comment:} The perceptron hypothesis $g$ always separates the data (after convergence), but it need not equal the target boundary $x_2=-x_1$. Different random samples can yield different separating hyperplanes. In the plots above, $g$ is generally ``close'' to $f$ in the sense that it is a separating line with a similar orientation, but it is not identical.
+
+\end{proof}
+
+\begin{homework}
+    You are asked to build a machine learning system to estimate someone's blood pressure (two numbers: systolic and diastolic; consider them to be real-valued) based on the following inputs: the patient's sex, age, weight, average grams of fat consumed per day, number of servings of red meat per week, servings of fruits and vegetables per day, smoker or non-smoker. You are given a training data set of values for all of these variables and the blood pressure numbers for 10,000 patients.
+Answer (and explain) the following questions
+\end{homework}
+
+\begin{proof}
+We want to estimate systolic and diastolic blood pressure (two real numbers) from patient features, using a training set with labels.
+
+\begin{enumerate}
+\item[(a)] This is a \textbf{supervised learning} problem, specifically \textbf{regression} (multi-output regression) since the targets are real-valued.
+\item[(b)] The label space is the set of true blood pressure pairs $(\text{systolic},\text{diastolic})$, which can be modeled as a subset of $\mathbb{R}^2$.
+\item[(c)] The output space is also a subset of $\mathbb{R}^2$ (the model outputs predicted systolic/diastolic values).
+\end{enumerate}    
+\end{proof}
+
+
+
+\begin{homework}
+     There are 100,000 emails used to train a spam detection system - 5,000 of them are of spam and the rest are non-spam. To test the system, you have 10,000 emails $-2,000$ spams and 8,000 non-spams - in your test set.
+The results of the test are as follows: 250 of the spam emails are classified as non-spam, and the rest are classified as spam; 250 of the non-spam emails are classified as spam, and the rest are classified as non-spam.
+\end{homework}
+
+\begin{proof}
+    Test set: 10{,}000 emails with 2{,}000 spam and 8{,}000 non-spam.
+
+Given:
+\begin{itemize}
+\item 250 spam emails classified as non-spam $\Rightarrow$ FN $=250$.
+\item The rest of spam classified as spam $\Rightarrow$ TP $=2000-250=1750$.
+\item 250 non-spam classified as spam $\Rightarrow$ FP $=250$.
+\item The rest of non-spam classified as non-spam $\Rightarrow$ TN $=8000-250=7750$.
+\end{itemize}
+
+\subsection*{(a) Confusion matrix}
+\[
+\begin{array}{c|cc}
+\text{Actual}\backslash \text{Predicted} & \text{Spam} & \text{Non-spam}\\
+\hline
+\text{Spam} & \text{TP}=1750 & \text{FN}=250\\
+\text{Non-spam} & \text{FP}=250 & \text{TN}=7750
+\end{array}
+\]
+
+\subsection*{(b) False positive rate}
+\[
+\mathrm{FPR} = \frac{\mathrm{FP}}{\mathrm{FP}+\mathrm{TN}}
+= \frac{250}{250+7750}
+= \frac{250}{8000}
+= 0.03125.
+\]
+
+\subsection*{(c) False negative rate}
+\[
+\mathrm{FNR} = \frac{\mathrm{FN}}{\mathrm{FN}+\mathrm{TP}}
+= \frac{250}{250+1750}
+= \frac{250}{2000}
+= 0.125.
+\]
+
+\subsection*{(d) Error rate}
+\[
+\mathrm{Error} = \frac{\mathrm{FP}+\mathrm{FN}}{\text{Total}}
+= \frac{250+250}{10000}
+= \frac{500}{10000}
+= 0.05.
+\]
+
+\subsection*{(e) Precision}
+\[
+\mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP}+\mathrm{FP}}
+= \frac{1750}{1750+250}
+= \frac{1750}{2000}
+= 0.875.
+\]
+
+\subsection*{(f) Sensitivity}
+Sensitivity (a.k.a.\ recall or true positive rate) is
+\[
+\mathrm{Sensitivity} = \frac{\mathrm{TP}}{\mathrm{TP}+\mathrm{FN}}
+= \frac{1750}{1750+250}
+= \frac{1750}{2000}
+= 0.875.
+\]
+\end{proof}
+
+
+\end{document}

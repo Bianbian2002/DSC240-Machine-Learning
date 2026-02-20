@@ -1,0 +1,143 @@
+\documentclass[en,hazy,blue,12pt,normal]{elegantnote}
+
+\input{preface}
+
+% (If your preface already loads these, it's still usually fine.)
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title{Winter 2026 DSC 240: Homework 3}
+\author{Zeyu Bian}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\begin{homework}
+    (10 points): Maximum Likelihood Estimation for Bernoulli Distribution
+
+Let $X_1, X_2, \ldots, X_n$ be $n$ independent and identically distributed (i.i.d.) random variables following a Bernoulli distribution. The Bernoulli distribution for a random variable $X$ is given by:
+
+$$
+\mathbb{P}(X=x ; p)=p^x(1-p)^{1-x}
+$$
+
+where $x \in\{0,1\}$ and $p$ is the probability of $X$ being 1 . Derive the maximum likelihood estimator (MLE) for the parameter $p$ using the given samples.
+\end{homework}
+
+\begin{proof}
+    We directly calculate the log-likelihood:
+
+$$
+\ell(p)=\log L(p)=\sum_{i=1}^n\left[x_i \log p+\left(1-x_i\right) \log (1-p)\right] .
+$$
+
+Take the derivative w.r.t to p and let it to be zero:
+\[\frac{d \ell}{d p}=\sum_{i=1}^n\left(\frac{x_i}{p}-\frac{1-x_i}{1-p}\right)=0.\]
+
+We get the MLE estimator
+\[\hat{p} = \frac{\sum_{i=1}^nx_i}{n}.\]
+\end{proof}
+
+\begin{homework}
+    ( 20 points): Cross-Entropy Loss and Logistic Loss
+Consider a binary classification problem with outputs $y \in\{0,1\}$. Assume $p(y \mid x)$ is $\operatorname{Bernoulli}\left(\hat{p}\left(x ; \theta^*\right)\right)$ for some parameter vector $\theta^* \in \mathbb{R}^d$, where for each $\theta, \hat{p}(x ; \theta)$ returns a number between $[0,1]$.
+
+(a) ( $\mathbf{1 0}$ points) For each parameter $\theta$, the cross-entropy loss for a set of $n$ examples with predictions $\hat{p}_i:=\hat{p}\left(x_i ; \theta\right)$ and true labels $y_i$ is given by:
+
+$$
+\operatorname{CE}(\theta)=-\frac{1}{n} \sum_{i=1}^n\left(y_i \log \left(\hat{p}_i\right)+\left(1-y_i\right) \log \left(1-\hat{p}_i\right)\right) .
+$$
+
+
+Derive this loss function starting from the principle of Maximum Likelihood Estimation (MLE).
+
+(b) ( $\mathbf{1 0}$ points) Instantiate the classifier's prediction $\hat{p}(x ; \theta)$ as the sigmoid function applied to a linear combination of input features, i.e., $\hat{p}(x ; \theta)=\sigma\left(\theta^{\top} x\right)$, where $\sigma(z)=\frac{1}{1+e^{-z}}$. Show that in this case, minimizing the cross-entropy loss above is equivalent to minimizing the familiar logistic loss, which is given by:
+
+$$
+L(\theta)=\frac{1}{n} \sum_{i=1}^n \log \left(1+e^{-\tilde{y}_i \theta^{\top} x_i}\right) \quad \text { where } \tilde{y}_i=\left\{\begin{array}{ll}
+1 & \text { if } y_i=1 \\
+-1 & \text { if } y_i=0
+\end{array} .\right.
+$$
+\end{homework}
+
+\begin{proof}
+(a)
+The likelihood over the dataset is
+    \[L(\theta)=\prod_{i=1}^n \hat{p}_i^{y_i}\left(1-\hat{p}_i\right)^{1-y_i}.\]
+
+    Maximize log-likelihood $\Leftrightarrow$ minimize negative average log-likelihood:
+
+$$
+-\frac{1}{n} \log L(\theta)=-\frac{1}{n} \sum_{i=1}^n\left(y_i \log \hat{p}_i+\left(1-y_i\right) \log \left(1-\hat{p}_i\right)\right),
+$$
+
+which is exactly the cross-entropy expression.
+
+(b)Plug in the expression of $\hat{p}$ and unify the case for $y_i$, we have:
+\begin{align}
+    \textbf{CE}(\theta)&=\frac{1}{n}\sum_{i=1}^n(\log(1+e^{-\theta^\top x})I_{y_i = 1} + \log(1+e^{\theta^\top x})I_{y_i = 0})\\
+    &=\frac{1}{n}\sum_{i=1}^n  \log \left(1+e^{-\bar{y}_i \theta^{\top} x_i}\right)\\
+    &= L(\theta).
+\end{align}
+\end{proof}
+\begin{homework}
+    $(40+10$ bonus points): Shape of Bayes Optimal Classifiers for Gaussian Data
+
+Assume we have a binary classification problem where:
+
+- Data points from class A are generated from a Gaussian distribution $\mathcal{N}\left(\mu_1, I_d\right)$.
+
+- Data points from class B are generated from a Gaussian distribution $\mathcal{N}\left(\mu_2, I_d\right)$.
+
+- The prior probabilities for class A and class B are equal, $P$ (class A$)=P($ class B$)=0.5$.
+
+(a) ( $\mathbf{1 0}$ points) Derive the posterior probability $P(y \mid x)$ for class A and B and the decision rule for the Bayes optimal classifier. Given $\mu_1=[0,0]$ and $\mu_2=[1,1]$, plot the decision boundary and determine if it is linear.
+(Hint: Recall that the Bayes optimal classifier $h^*$ is given by $h^*(x)=\arg \max _y p(y \mid x)$. So the strategies for solving Part (a) and (b)(c)(d) is to first derive $p(y \mid x)$ using the Bayes rule. )
+
+(b) ( $\mathbf{1 0}$ points) Consider the case where the prior probabilities are not equal, $P($ class A$)=p$ and $P($ class B$)=1-p$. Derive the Bayes optimal classifier. For the 2D example, let $\mu_1=[0,0]^T$, $\mu_2=[1,1]^T$, and $p=0.8$. Plot the decision boundary.
+
+(c) ( $\mathbf{1 0}$ points) Now let the covariance matrix for class A be $\sigma^2 I_d$ while keeping class B's covariance matrix as $I_d$. Derive the Bayes optimal classifier. For the 2D example, let $\mu_1= [0,0]^T, \mu_2=[1,1]^T, p=0.5$, and $\sigma^2=0.25$. Plot the decision boundary.
+
+(d) ( $\mathbf{1 0}$ points) Instantiate the decision rule from (c) with $\mu_1=\mu_2$ what is the shape of the decision boundary? For the scenario where $\mu_1=[0,0]^T$ and $\mu_2=[0,0]^T$ with $p=0.5$ and $\sigma^2=0.25$, plot the decision boundary.
+
+(e) (Bonus 10 points) Examine whether the decision boundaries from parts (a)-(d) can be realized by a Gaussian Naive Bayes model. Provide a reasoning for your answer. (Hint: Whether the Bayes Optimal classifier can be realized by $\mathcal{H}$ means whether $h^* \in \mathcal{H}$, i.e., whether there is a parameter vector of the Gaussian Naive Bayes classifier that is the same as $h^*$ )
+
+Deliverables for each subproblem (a) (b) (c) and (d):
+
+1. Analytical expressions for $P(y \mid x)$.
+
+2. The decision rule of the Bayes optimal classifier / analytical expression of the decision boundary.
+
+3. Plotted figures that clearly demonstrate the decision boundary along with 100 random samples (color-coded in red and blue) from each class in the same figure generated in the specified way.
+
+\end{homework}
+
+\begin{proof}[\solutionname]
+    Bayes rule:
+    \[P(A \mid x)=\frac{\pi_1 p(x \mid A)}{\pi_1 p(x \mid A)+\pi_2 p(x \mid B)}, \quad P(B \mid x)=1-P(A \mid x) .\]
+
+and the optimal solution 
+\[h^*(x)=\arg \max _{y \in\{A, B\}} P(y \mid x) .\]
+
+    (a)For Gaussian, we have 
+    \[\log p(x \mid y)=-\frac{d}{2} \log (2 \pi)-\frac{1}{2} \log \left|\Sigma_y\right|-\frac{1}{2}\left(x-\mu_y\right)^{\top} \Sigma_y^{-1}\left(x-\mu_y\right) .\]
+    Therefore, the equivalent discriminant rule:
+    
+Choose A if $\log \pi_1+\log p(x \mid A)>\log \pi_2+\log p(x \mid B)$.
+
+    Since $\pi_1 = \pi_2, \Sigma_A = \Sigma_B$, we see the quadratic terms and prior terms cancel out. Therefore the decision boundry is linear.
+\end{proof}
+
+\begin{homework}
+    (30 points): Naive Bayes Classifier vs Linear Classifier
+In this question, we have provided you with three carefully designed binary classification datasets (data-1.npy, data-2.npy, and data-3.npy).
+
+(a) ( $\mathbf{1 5}$ points) For each of the three datasets provided, fit a Gaussian Naive Bayes classifier and a linear logistic regression classifier using the sklearn library in Python. Plot the dataset with points color-coded according to their true labels. Additionally, plot the decision boundaries for both classifiers.
+(Hint: You may use matplotlib for plotting and sklearn's GaussianNB and LogisticRegression for model fitting. The first two columns in the dataset represents the features and the last column is labels.)
+
+(b) ( $\mathbf{1 5}$ points) Discuss why the Naive Bayes classifier and / or the linear classifier fail on each example. Justify your answers.
+\end{homework}
+\end{document}
