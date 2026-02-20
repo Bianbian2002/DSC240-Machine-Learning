@@ -2,6 +2,8 @@ from pathlib import Path
 
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import LogisticRegression
 
 def sample_gaussian(mu, Sigma, n=100, seed=0):
     rng = np.random.default_rng(seed)
@@ -26,6 +28,33 @@ def plot_boundary_and_samples(score_fn, XA, XB, title="", save_path=None):
     plt.contour(xx, yy, zz, levels=[0.0])  # boundary where score=0
     plt.title(title)
     plt.legend()
+    if save_path is not None:
+        save_path = Path(save_path)
+        save_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(save_path, dpi=200)
+    plt.show()
+
+
+def plot_dataset_with_boundaries(X, y, gnb, lr, title, save_path=None):
+    x_min, x_max = X[:, 0].min() - 1.0, X[:, 0].max() + 1.0
+    y_min, y_max = X[:, 1].min() - 1.0, X[:, 1].max() + 1.0
+    xx, yy = np.meshgrid(
+        np.linspace(x_min, x_max, 400),
+        np.linspace(y_min, y_max, 400),
+    )
+    grid = np.c_[xx.ravel(), yy.ravel()]
+
+    zz_gnb = gnb.predict_proba(grid)[:, 1].reshape(xx.shape)
+    zz_lr = lr.predict_proba(grid)[:, 1].reshape(xx.shape)
+
+    plt.figure()
+    plt.scatter(X[y == 0, 0], X[y == 0, 1], marker="o", label="Class 0")
+    plt.scatter(X[y == 1, 0], X[y == 1, 1], marker="x", label="Class 1")
+    plt.contour(xx, yy, zz_gnb, levels=[0.5], colors=["tab:blue"], linewidths=2)
+    plt.contour(xx, yy, zz_lr, levels=[0.5], colors=["tab:orange"], linewidths=2)
+    plt.title(title)
+    plt.legend(["GNB boundary", "LR boundary", "Class 0", "Class 1"])
+
     if save_path is not None:
         save_path = Path(save_path)
         save_path.parent.mkdir(parents=True, exist_ok=True)
@@ -127,6 +156,36 @@ def main():
         title="Q3(d): mu1=mu2, sigma^2=0.25",
         save_path=out_path,
     )
+
+    # Q4(a): GaussianNB vs LogisticRegression on provided datasets
+    data_dir = Path(__file__).resolve().parents[1] / "Data" / "HW3_data"
+    out_dir = Path(__file__).resolve().parents[1] / "Figures" / "hw3"
+
+    for idx in [1, 2, 3]:
+        data_path = data_dir / f"data-{idx}.npy"
+        if not data_path.exists():
+            print(f"Missing dataset: {data_path}")
+            continue
+
+        data = np.load(data_path)
+        X = data[:, :2].astype(float)
+        y = data[:, 2].astype(int)
+
+        gnb = GaussianNB()
+        gnb.fit(X, y)
+
+        lr = LogisticRegression(solver="lbfgs")
+        lr.fit(X, y)
+
+        save_path = out_dir / f"q4_data{idx}_boundaries.png"
+        plot_dataset_with_boundaries(
+            X,
+            y,
+            gnb,
+            lr,
+            title=f"Q4(a): data-{idx}",
+            save_path=save_path,
+        )
 
 
 if __name__ == "__main__":
