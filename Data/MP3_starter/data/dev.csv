@@ -1,0 +1,663 @@
+CODE_GENDER,FLAG_OWN_CAR,FLAG_OWN_REALTY,CNT_CHILDREN,AMT_INCOME_TOTAL,NAME_INCOME_TYPE,NAME_EDUCATION_TYPE,NAME_FAMILY_STATUS,NAME_HOUSING_TYPE,DAYS_BIRTH,DAYS_EMPLOYED,FLAG_MOBIL,FLAG_WORK_PHONE,FLAG_PHONE,FLAG_EMAIL,OCCUPATION_TYPE,CNT_FAM_MEMBERS,QUANTIZED_INC,QUANTIZED_AGE,QUANTIZED_WORK_YEAR,target
+1,0,0,0,202500.0,Commercial associate,Higher education,Civil marriage,House / apartment,-9278,-339,1,0,1,0,Sales staff,2.0,high,lowest,lowest,0
+1,0,1,0,90000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-24665,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,0,1,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-10815,-2806,1,0,0,0,Managers,3.0,lowest,lowest,lowest,0
+1,0,1,0,112500.0,Commercial associate,Higher education,Single / not married,House / apartment,-14321,-1751,1,0,0,1,High skill tech staff,1.0,lowest,low,lowest,0
+1,0,1,1,90000.0,Working,Higher education,Married,House / apartment,-10520,-2378,1,0,0,0,Laborers,3.0,lowest,lowest,lowest,0
+1,1,1,0,144000.0,Working,Secondary / secondary special,Married,House / apartment,-21871,-5665,1,1,1,0,Cooking staff,2.0,medium,highest,low,0
+1,1,0,0,144000.0,Working,Secondary / secondary special,Married,House / apartment,-17383,-890,1,1,1,0,Core staff,2.0,medium,medium,lowest,0
+0,0,1,0,225000.0,Commercial associate,Higher education,Single / not married,House / apartment,-10182,-2403,1,0,0,0,Sales staff,1.0,high,lowest,lowest,0
+1,0,1,0,180000.0,Working,Higher education,Single / not married,House / apartment,-9134,-1812,1,1,1,0,Secretaries,1.0,medium,lowest,lowest,0
+1,0,0,0,112500.0,Pensioner,Secondary / secondary special,Separated,House / apartment,-20605,365243,1,0,0,0,,1.0,lowest,high,lowest,0
+1,1,1,2,67500.0,Working,Secondary / secondary special,Married,House / apartment,-14073,-838,1,0,1,0,Sales staff,4.0,lowest,low,lowest,0
+0,0,1,2,675000.0,State servant,Secondary / secondary special,Married,House / apartment,-14163,-6886,1,0,1,0,Drivers,4.0,highest,low,medium,0
+1,0,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-20301,-3092,1,1,1,0,Managers,2.0,low,high,lowest,0
+1,0,1,0,315000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-14419,-2423,1,0,0,0,,2.0,highest,low,lowest,0
+0,1,1,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12733,-3185,1,1,0,0,Drivers,2.0,lowest,low,lowest,0
+0,1,1,1,315000.0,Working,Higher education,Married,Co-op apartment,-13307,-1227,1,0,1,0,Laborers,3.0,highest,low,lowest,0
+1,0,0,0,117000.0,Working,Secondary / secondary special,Married,House / apartment,-20754,-2330,1,0,0,0,,2.0,low,high,lowest,1
+0,0,0,1,225000.0,Working,Higher education,Separated,Office apartment,-13057,-1051,1,0,0,0,,2.0,high,low,lowest,0
+1,1,1,0,29250.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20086,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,1,0,225000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-22897,-1812,1,0,0,0,Managers,2.0,high,highest,lowest,0
+0,0,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-13826,-7128,1,0,0,0,Laborers,2.0,low,low,medium,0
+0,0,1,0,85500.0,State servant,Secondary / secondary special,Separated,Co-op apartment,-16542,-8737,1,1,1,0,Core staff,1.0,lowest,medium,medium,0
+1,1,1,0,315000.0,Commercial associate,Incomplete higher,Single / not married,House / apartment,-9130,-1390,1,0,1,0,Core staff,1.0,highest,lowest,lowest,0
+1,1,1,0,180000.0,Commercial associate,Higher education,Married,House / apartment,-12953,-306,1,1,1,0,,2.0,medium,low,lowest,0
+0,0,0,0,247500.0,Working,Higher education,Civil marriage,House / apartment,-15125,-199,1,0,0,0,Drivers,2.0,high,medium,lowest,0
+1,1,1,0,270000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-24194,365243,1,0,0,0,,2.0,highest,highest,lowest,0
+1,0,1,0,180000.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-19692,-2425,1,0,0,0,Private service staff,2.0,medium,high,lowest,0
+0,1,1,1,202500.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-11890,-741,1,1,0,0,Sales staff,3.0,high,low,lowest,0
+1,0,1,1,337500.0,Commercial associate,Higher education,Single / not married,House / apartment,-14408,-431,1,0,0,0,Accountants,2.0,highest,low,lowest,0
+1,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15875,-2758,1,1,1,0,Core staff,2.0,low,medium,lowest,0
+0,1,0,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-19318,-918,1,1,1,0,Laborers,2.0,high,high,lowest,0
+0,1,1,0,180000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12365,-1141,1,0,0,0,Laborers,2.0,medium,low,lowest,0
+1,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-16965,-928,1,0,0,0,Accountants,2.0,low,medium,lowest,0
+0,1,1,1,270000.0,Working,Secondary / secondary special,Married,House / apartment,-13207,-1401,1,0,0,0,Low-skill Laborers,3.0,highest,low,lowest,0
+1,0,1,0,180000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21656,365243,1,0,0,0,,2.0,medium,highest,lowest,0
+1,0,0,2,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12541,-4549,1,1,1,0,Laborers,4.0,low,low,low,0
+0,0,1,0,135000.0,Pensioner,Secondary / secondary special,Civil marriage,House / apartment,-23094,365243,1,0,1,0,,2.0,low,highest,lowest,0
+1,1,1,1,180000.0,Working,Higher education,Separated,House / apartment,-18838,-5981,1,0,0,0,Managers,2.0,medium,high,low,0
+0,0,0,1,180000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-10656,-926,1,1,1,0,Laborers,3.0,medium,lowest,lowest,1
+1,0,0,0,90000.0,Working,Secondary / secondary special,Married,House / apartment,-18728,-9325,1,0,0,0,Cooking staff,2.0,lowest,high,medium,0
+1,0,1,0,90000.0,Working,Secondary / secondary special,Separated,House / apartment,-14680,-644,1,0,1,0,Sales staff,1.0,lowest,medium,lowest,0
+0,1,1,0,450000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-15960,-3574,1,0,0,0,High skill tech staff,1.0,highest,medium,low,0
+1,1,1,0,121500.0,Working,Secondary / secondary special,Married,House / apartment,-10014,-1386,1,0,0,0,Medicine staff,2.0,low,lowest,lowest,1
+1,0,0,0,99000.0,Commercial associate,Higher education,Married,House / apartment,-10084,-678,1,0,0,0,Sales staff,2.0,lowest,lowest,lowest,0
+1,1,1,0,29250.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20086,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,1,1,157500.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-14642,-345,1,0,0,0,Cooking staff,3.0,medium,medium,lowest,0
+1,0,0,0,94500.0,Pensioner,Higher education,Married,House / apartment,-21373,365243,1,0,1,0,,2.0,lowest,high,lowest,0
+0,0,0,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-13739,-2896,1,0,0,0,Security staff,2.0,medium,low,lowest,0
+0,1,0,0,157500.0,Working,Incomplete higher,Married,With parents,-9124,-960,1,1,0,0,Drivers,2.0,medium,lowest,lowest,1
+0,1,0,1,135000.0,Working,Higher education,Married,House / apartment,-12241,-1581,1,1,0,0,Managers,3.0,low,low,lowest,0
+1,1,1,0,247500.0,Working,Secondary / secondary special,Married,House / apartment,-19751,-2847,1,0,0,1,,2.0,high,high,lowest,0
+1,0,0,0,292500.0,State servant,Secondary / secondary special,Married,House / apartment,-20953,-8684,1,1,1,0,Accountants,2.0,highest,high,medium,0
+1,0,1,0,54000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20830,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,1,1,135000.0,Commercial associate,Higher education,Married,House / apartment,-12854,-125,1,0,1,0,Core staff,3.0,low,low,lowest,0
+0,1,0,2,225000.0,State servant,Higher education,Married,With parents,-10937,-1539,1,0,0,0,High skill tech staff,4.0,high,lowest,lowest,0
+1,0,1,0,423000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-13480,-3153,1,0,0,0,Private service staff,1.0,highest,low,lowest,0
+1,0,1,1,229500.0,State servant,Higher education,Married,House / apartment,-11187,-1769,1,0,0,0,,3.0,high,low,lowest,0
+1,0,1,0,270000.0,Commercial associate,Higher education,Single / not married,House / apartment,-14010,-3050,1,0,1,1,Private service staff,1.0,highest,low,lowest,0
+0,1,1,0,450000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-21542,-5583,1,1,1,0,Managers,2.0,highest,highest,low,0
+1,0,1,0,225000.0,State servant,Higher education,Married,House / apartment,-18229,-1288,1,0,0,0,High skill tech staff,2.0,high,high,lowest,0
+1,1,0,2,162000.0,Commercial associate,Incomplete higher,Married,House / apartment,-9662,-796,1,1,1,0,Core staff,4.0,medium,lowest,lowest,0
+0,0,1,2,157500.0,Working,Secondary / secondary special,Married,House / apartment,-15031,-1436,1,0,0,0,Laborers,4.0,medium,medium,lowest,0
+1,0,0,0,157500.0,Working,Secondary / secondary special,Widow,House / apartment,-17963,-197,1,0,0,0,Cleaning staff,1.0,medium,high,lowest,1
+0,0,0,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-14362,-288,1,1,1,0,Laborers,2.0,medium,low,lowest,0
+1,0,1,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12847,-1111,1,1,1,0,Sales staff,3.0,lowest,low,lowest,0
+1,0,0,0,103500.0,Pensioner,Higher education,Married,House / apartment,-21701,365243,1,0,1,0,,2.0,lowest,highest,lowest,0
+1,1,1,3,180000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-11363,-721,1,0,1,0,High skill tech staff,5.0,medium,low,lowest,0
+1,0,1,0,193500.0,Pensioner,Incomplete higher,Widow,House / apartment,-24295,365243,1,0,0,0,,1.0,high,highest,lowest,0
+1,0,1,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-14523,-3420,1,0,0,0,Core staff,2.0,high,low,low,1
+1,1,1,1,202500.0,Working,Secondary / secondary special,Married,House / apartment,-10310,-2257,1,0,0,0,Sales staff,3.0,high,lowest,lowest,0
+0,0,1,1,157500.0,Working,Secondary / secondary special,Married,House / apartment,-15627,-2315,1,0,0,0,,3.0,medium,medium,lowest,1
+1,1,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-19724,-12591,1,0,0,0,Medicine staff,2.0,high,high,highest,0
+0,1,0,0,202500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-10756,-2180,1,0,1,0,Managers,2.0,high,lowest,lowest,0
+1,0,0,2,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12782,-224,1,1,0,0,Laborers,4.0,lowest,low,lowest,0
+1,0,1,0,157500.0,Working,Secondary / secondary special,Civil marriage,Office apartment,-13404,-3908,1,0,1,0,,2.0,medium,low,low,1
+1,1,1,2,135000.0,Working,Secondary / secondary special,Married,House / apartment,-15761,-3173,1,0,0,0,Laborers,4.0,low,medium,lowest,0
+1,0,1,0,45000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20688,365243,1,0,1,0,,2.0,lowest,high,lowest,0
+1,1,1,1,225000.0,Commercial associate,Higher education,Civil marriage,House / apartment,-10689,-2819,1,0,0,0,,3.0,high,lowest,lowest,0
+1,0,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-13566,-1900,1,1,0,0,High skill tech staff,2.0,low,low,lowest,0
+0,1,1,2,225000.0,Working,Secondary / secondary special,Married,House / apartment,-10380,-3396,1,0,0,0,Laborers,4.0,high,lowest,low,0
+0,1,1,0,135000.0,Working,Secondary / secondary special,Single / not married,With parents,-10344,-3072,1,1,1,0,High skill tech staff,1.0,low,lowest,lowest,0
+1,0,1,0,157500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23129,365243,1,0,0,0,,2.0,medium,highest,lowest,0
+1,0,0,2,144000.0,Working,Secondary / secondary special,Married,House / apartment,-17001,-5004,1,0,0,0,Medicine staff,4.0,medium,medium,low,0
+1,1,1,0,135000.0,Working,Higher education,Married,House / apartment,-13474,-2894,1,1,1,0,Accountants,2.0,low,low,lowest,0
+1,0,1,2,99000.0,Commercial associate,Higher education,Married,House / apartment,-12752,-433,1,0,1,0,Accountants,4.0,lowest,low,lowest,0
+0,1,1,0,202500.0,Working,Higher education,Single / not married,House / apartment,-17585,-3017,1,0,0,0,Drivers,2.0,high,medium,lowest,1
+1,0,1,1,315000.0,State servant,Secondary / secondary special,Civil marriage,House / apartment,-11206,-2514,1,0,0,1,Core staff,3.0,highest,low,lowest,0
+1,0,0,0,351000.0,Commercial associate,Higher education,Married,House / apartment,-21574,-1081,1,0,1,0,,2.0,highest,highest,lowest,0
+1,0,0,0,135000.0,Working,Secondary / secondary special,Widow,House / apartment,-15888,-500,1,1,1,0,Laborers,1.0,low,medium,lowest,1
+1,0,1,0,157500.0,State servant,Higher education,Married,House / apartment,-20163,-223,1,1,1,0,Core staff,2.0,medium,high,lowest,0
+1,0,1,0,112500.0,Commercial associate,Higher education,Married,House / apartment,-9890,-719,1,0,0,0,,2.0,lowest,lowest,lowest,0
+0,0,1,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-15640,-1328,1,0,0,0,Core staff,2.0,medium,medium,lowest,1
+0,1,1,1,225000.0,Working,Secondary / secondary special,Married,House / apartment,-11378,-867,1,0,1,0,Drivers,3.0,high,low,lowest,0
+1,0,1,1,180000.0,Commercial associate,Higher education,Married,House / apartment,-11117,-3227,1,0,0,0,Accountants,3.0,medium,low,lowest,0
+0,1,1,1,1125000.0,Working,Higher education,Married,House / apartment,-16616,-1624,1,0,0,0,Managers,3.0,highest,medium,lowest,0
+1,0,1,0,72000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21908,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,1,1,1,135000.0,Commercial associate,Higher education,Married,House / apartment,-11759,-91,1,0,0,0,Managers,3.0,low,low,lowest,0
+1,0,1,1,180000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-16234,-6075,1,0,1,0,Laborers,3.0,medium,medium,low,0
+1,0,0,1,112500.0,Working,Higher education,Civil marriage,With parents,-12076,-5362,1,0,1,1,Laborers,3.0,lowest,low,low,0
+1,0,0,0,135000.0,Pensioner,Higher education,Single / not married,House / apartment,-21089,365243,1,0,1,0,,1.0,low,high,lowest,0
+0,1,1,1,135000.0,Working,Secondary / secondary special,Married,House / apartment,-15216,-2969,1,1,0,0,Low-skill Laborers,3.0,low,medium,lowest,0
+1,1,1,2,225000.0,Commercial associate,Higher education,Married,House / apartment,-14100,-3623,1,0,0,0,Private service staff,4.0,high,low,low,0
+1,0,1,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-16227,-4854,1,0,0,0,Sales staff,2.0,high,medium,low,0
+0,1,0,2,157500.0,Working,Secondary / secondary special,Separated,With parents,-13979,-1626,1,0,0,0,Laborers,3.0,medium,low,lowest,0
+0,1,1,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-11688,-1299,1,0,0,1,Laborers,2.0,high,low,lowest,0
+0,1,0,1,180000.0,State servant,Secondary / secondary special,Married,House / apartment,-14759,-991,1,0,0,0,Drivers,3.0,medium,medium,lowest,0
+0,0,0,0,135000.0,Working,Higher education,Single / not married,With parents,-11599,-718,1,0,1,0,Laborers,1.0,low,low,lowest,0
+1,1,1,0,135000.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-18090,-9194,1,0,0,0,Medicine staff,2.0,low,high,medium,1
+0,0,0,3,180000.0,Working,Secondary / secondary special,Married,House / apartment,-14243,-3535,1,0,0,0,Laborers,5.0,medium,low,low,0
+1,0,1,1,337500.0,Commercial associate,Higher education,Single / not married,House / apartment,-14408,-431,1,0,0,0,Accountants,2.0,highest,low,lowest,0
+1,0,1,1,112500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-9383,-689,1,0,0,0,High skill tech staff,2.0,lowest,lowest,lowest,0
+0,0,0,0,117000.0,Working,Higher education,Single / not married,House / apartment,-8168,-804,1,1,0,0,Sales staff,1.0,low,lowest,lowest,1
+1,0,0,2,171000.0,Working,Secondary / secondary special,Married,House / apartment,-14622,-1160,1,1,1,0,Core staff,4.0,medium,medium,lowest,0
+0,1,1,2,180000.0,Working,Higher education,Married,House / apartment,-13174,-2477,1,0,0,0,Managers,4.0,medium,low,lowest,0
+0,0,0,1,157500.0,Working,Secondary / secondary special,Married,House / apartment,-11546,-615,1,0,0,0,Drivers,3.0,medium,low,lowest,0
+1,0,1,0,225000.0,Commercial associate,Incomplete higher,Civil marriage,House / apartment,-8425,-94,1,0,1,0,Sales staff,2.0,high,lowest,lowest,0
+1,0,1,0,126000.0,Working,Secondary / secondary special,Married,House / apartment,-21800,-2544,1,1,1,0,Laborers,2.0,low,highest,lowest,0
+1,0,1,0,157500.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-18648,365243,1,0,0,0,,1.0,medium,high,lowest,0
+1,0,0,0,112500.0,Commercial associate,Higher education,Married,With parents,-19721,-1539,1,0,0,0,Accountants,2.0,lowest,high,lowest,1
+1,0,1,0,112500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21008,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,1,2,173250.0,Working,Secondary / secondary special,Separated,House / apartment,-13219,-5542,1,0,0,0,Core staff,3.0,medium,low,low,0
+1,0,1,0,99000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23235,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,1,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-16712,-2243,1,0,0,0,Drivers,2.0,high,medium,lowest,0
+1,0,0,0,81000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20286,365243,1,0,1,0,,2.0,lowest,high,lowest,0
+0,1,1,0,180000.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-20283,-3447,1,0,0,0,Drivers,1.0,medium,high,low,0
+0,0,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-14854,-3518,1,1,0,0,Drivers,2.0,low,medium,low,0
+1,0,0,1,135000.0,Commercial associate,Secondary / secondary special,Married,With parents,-13689,-1172,1,0,0,0,Sales staff,3.0,low,low,lowest,0
+0,1,1,0,166500.0,Working,Secondary / secondary special,Married,House / apartment,-17048,-2276,1,0,0,0,,2.0,medium,medium,lowest,0
+1,0,1,2,67500.0,Working,Higher education,Married,House / apartment,-10281,-961,1,1,0,0,,4.0,lowest,lowest,lowest,0
+1,1,1,0,216000.0,Working,Higher education,Married,House / apartment,-18529,-1809,1,0,0,0,Secretaries,2.0,high,high,lowest,0
+1,1,1,0,185400.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-23584,365243,1,0,0,0,,1.0,high,highest,lowest,0
+0,0,1,1,270000.0,State servant,Higher education,Married,House / apartment,-11082,-376,1,0,0,0,Core staff,3.0,highest,low,lowest,0
+1,0,0,0,81000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20286,365243,1,0,1,0,,2.0,lowest,high,lowest,0
+0,1,0,0,180000.0,Commercial associate,Secondary / secondary special,Married,Municipal apartment,-9810,-2993,1,1,0,0,,2.0,medium,lowest,lowest,1
+1,0,0,1,90000.0,Working,Secondary / secondary special,Married,With parents,-10253,-1462,1,0,0,0,Laborers,3.0,lowest,lowest,lowest,0
+0,1,1,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-13440,-6639,1,0,0,0,Core staff,2.0,lowest,low,medium,0
+0,1,1,1,225000.0,Working,Secondary / secondary special,Married,House / apartment,-11177,-4205,1,0,0,0,Laborers,3.0,high,low,low,0
+0,1,1,0,126000.0,Working,Higher education,Single / not married,House / apartment,-14522,-863,1,1,0,0,Managers,1.0,low,low,lowest,1
+1,0,1,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-13856,-3010,1,0,0,0,Laborers,2.0,medium,low,lowest,0
+1,1,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-16511,-3148,1,0,0,0,Laborers,2.0,high,medium,lowest,0
+0,0,1,0,450000.0,Commercial associate,Higher education,Married,House / apartment,-19080,-1851,1,0,1,0,Managers,2.0,highest,high,lowest,1
+1,0,1,0,112500.0,Working,Secondary / secondary special,Married,Municipal apartment,-20589,-3680,1,0,0,0,,2.0,lowest,high,low,0
+1,0,0,0,270000.0,Working,Secondary / secondary special,Married,House / apartment,-17778,-1719,1,1,1,0,High skill tech staff,2.0,highest,medium,lowest,0
+1,1,1,0,225000.0,Working,Higher education,Separated,Rented apartment,-11031,-137,1,1,0,0,,1.0,high,low,lowest,0
+1,0,1,0,135000.0,Working,Higher education,Single / not married,House / apartment,-9100,-1133,1,0,0,0,Managers,1.0,low,lowest,lowest,0
+0,1,0,0,360000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-15203,-2068,1,1,0,0,Laborers,1.0,highest,medium,lowest,0
+1,0,0,0,135000.0,Commercial associate,Higher education,Married,With parents,-15360,-413,1,0,0,1,Core staff,2.0,low,medium,lowest,0
+1,0,0,0,90000.0,Working,Higher education,Married,House / apartment,-19828,-5525,1,0,1,0,,2.0,lowest,high,low,0
+0,0,0,1,405000.0,Working,Secondary / secondary special,Married,With parents,-12675,-1328,1,0,0,0,Drivers,3.0,highest,low,lowest,0
+0,1,0,0,157500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-9883,-780,1,1,0,0,Sales staff,1.0,medium,lowest,lowest,0
+1,0,1,0,103500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-17007,-1569,1,1,1,0,Sales staff,2.0,lowest,medium,lowest,0
+0,0,1,0,143100.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22776,365243,1,0,1,0,,2.0,medium,highest,lowest,0
+1,0,1,0,81000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22191,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+1,0,0,1,135000.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-10151,-1138,1,0,0,0,Laborers,3.0,low,lowest,lowest,0
+1,0,1,0,103500.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-24094,365243,1,0,1,0,,1.0,lowest,highest,lowest,0
+1,0,1,2,225000.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-12486,-1816,1,0,0,0,Laborers,4.0,high,low,lowest,0
+1,0,1,0,99000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23849,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,0,1,0,135000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-13395,-413,1,0,0,0,,1.0,low,low,lowest,0
+1,0,1,0,135000.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-22094,365243,1,0,0,0,,1.0,low,highest,lowest,0
+0,0,0,0,202500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-20079,-3505,1,1,1,0,Laborers,2.0,high,high,low,0
+0,1,0,0,292500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-18875,365243,1,0,0,0,,2.0,highest,high,lowest,0
+0,0,0,0,176175.0,Commercial associate,Secondary / secondary special,Married,With parents,-9073,-699,1,1,0,0,Core staff,2.0,medium,lowest,lowest,0
+1,0,1,0,99000.0,Working,Secondary / secondary special,Married,House / apartment,-22181,-14413,1,1,0,0,,2.0,lowest,highest,highest,0
+1,1,0,1,112500.0,Commercial associate,Secondary / secondary special,Married,Office apartment,-14499,-2860,1,0,0,0,Accountants,3.0,lowest,low,lowest,0
+1,0,1,0,67500.0,Commercial associate,Higher education,Separated,House / apartment,-18952,-499,1,0,1,0,Core staff,1.0,lowest,high,lowest,1
+1,0,1,0,292500.0,Working,Higher education,Single / not married,House / apartment,-15303,-108,1,0,0,0,,1.0,highest,medium,lowest,0
+1,1,0,0,225000.0,Working,Higher education,Married,House / apartment,-16649,-5453,1,0,1,0,Core staff,2.0,high,medium,low,0
+1,1,1,0,90000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23118,365243,1,0,1,0,,2.0,lowest,highest,lowest,0
+1,0,1,0,180000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-14279,-2939,1,0,0,0,Sales staff,1.0,medium,low,lowest,0
+1,0,1,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-15213,-109,1,0,0,0,Laborers,3.0,lowest,medium,lowest,0
+1,0,1,2,81000.0,Working,Higher education,Married,House / apartment,-10947,-2605,1,0,0,0,Core staff,4.0,lowest,lowest,lowest,0
+0,1,1,0,225000.0,State servant,Secondary / secondary special,Married,House / apartment,-13718,-3694,1,1,1,0,High skill tech staff,2.0,high,low,low,0
+1,0,1,0,139500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-20514,-5707,1,0,1,0,,2.0,medium,high,low,0
+0,0,0,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-14865,-925,1,0,0,0,,2.0,medium,medium,lowest,0
+1,1,1,0,225000.0,Working,Secondary / secondary special,Widow,House / apartment,-19809,-1539,1,0,0,0,Cleaning staff,1.0,high,high,lowest,1
+0,1,0,0,90000.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-10853,-249,1,0,1,0,Laborers,1.0,lowest,lowest,lowest,1
+1,0,0,1,180000.0,State servant,Secondary / secondary special,Married,Municipal apartment,-16471,-293,1,1,1,0,Laborers,3.0,medium,medium,lowest,0
+1,0,1,1,90000.0,Commercial associate,Secondary / secondary special,Married,With parents,-11644,-635,1,0,0,0,Sales staff,3.0,lowest,low,lowest,0
+1,0,1,1,90000.0,Working,Higher education,Single / not married,House / apartment,-16154,-2178,1,0,0,0,Core staff,2.0,lowest,medium,lowest,0
+1,0,0,1,139050.0,Pensioner,Secondary / secondary special,Married,Municipal apartment,-21071,365243,1,0,0,0,,3.0,medium,high,lowest,0
+1,1,1,0,247500.0,Working,Higher education,Married,House / apartment,-11961,-2224,1,1,0,0,Accountants,2.0,high,low,lowest,0
+1,1,1,0,225000.0,Commercial associate,Higher education,Civil marriage,House / apartment,-11879,-308,1,1,1,0,Sales staff,2.0,high,low,lowest,1
+1,0,1,0,135000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23442,365243,1,0,1,0,,2.0,low,highest,lowest,0
+0,0,1,1,292500.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-14785,-3018,1,1,1,0,Laborers,3.0,highest,medium,lowest,0
+1,1,1,1,157500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20661,365243,1,0,1,0,,3.0,medium,high,lowest,0
+1,1,1,0,180000.0,Working,Secondary / secondary special,Widow,House / apartment,-15494,-4304,1,0,0,0,Sales staff,1.0,medium,medium,low,0
+1,0,1,0,247500.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-21830,365243,1,0,1,0,,1.0,high,highest,lowest,0
+1,1,1,0,225000.0,Pensioner,Higher education,Married,House / apartment,-22212,365243,1,0,1,0,,2.0,high,highest,lowest,0
+1,0,1,0,171000.0,Pensioner,Higher education,Married,House / apartment,-19961,365243,1,0,0,0,,2.0,medium,high,lowest,0
+1,0,1,1,67500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-11900,-3360,1,0,0,0,Accountants,3.0,lowest,low,low,0
+1,0,0,0,112500.0,Pensioner,Secondary / secondary special,Separated,Municipal apartment,-21629,365243,1,0,0,0,,1.0,lowest,highest,lowest,0
+1,0,1,0,90000.0,Working,Secondary / secondary special,Married,Municipal apartment,-17708,-5555,1,0,0,0,Laborers,2.0,lowest,medium,low,0
+1,0,0,1,292500.0,Working,Incomplete higher,Married,House / apartment,-12454,-4030,1,1,1,0,Sales staff,3.0,highest,low,low,0
+0,1,1,0,135000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22240,365243,1,0,0,0,,2.0,low,highest,lowest,0
+1,1,1,0,243000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-14716,-2057,1,0,0,0,Sales staff,1.0,high,medium,lowest,0
+1,1,1,0,450000.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-16053,-1905,1,0,0,0,Core staff,1.0,highest,medium,lowest,0
+1,1,0,0,247500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15932,-4490,1,0,0,0,High skill tech staff,2.0,high,medium,low,0
+1,0,1,0,270000.0,Working,Higher education,Single / not married,House / apartment,-10390,-796,1,0,0,0,Sales staff,1.0,highest,lowest,lowest,1
+0,1,1,1,315000.0,Working,Secondary / secondary special,Separated,House / apartment,-16314,-882,1,0,0,0,Managers,2.0,highest,medium,lowest,0
+1,0,1,0,126000.0,State servant,Higher education,Married,House / apartment,-15737,-6652,1,0,1,0,,2.0,low,medium,medium,0
+0,0,0,0,292500.0,State servant,Secondary / secondary special,Married,House / apartment,-11365,-2745,1,1,1,0,Core staff,2.0,highest,low,lowest,0
+1,1,1,0,180000.0,Commercial associate,Higher education,Married,House / apartment,-20165,-6565,1,0,0,0,Core staff,2.0,medium,high,medium,0
+1,0,0,0,67500.0,State servant,Secondary / secondary special,Married,Co-op apartment,-18221,-7471,1,0,0,0,High skill tech staff,2.0,lowest,high,medium,0
+1,0,1,2,148500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-13351,-295,1,0,0,0,Managers,4.0,medium,low,lowest,0
+1,0,0,1,225000.0,State servant,Higher education,Civil marriage,House / apartment,-11279,-1788,1,0,1,0,Medicine staff,3.0,high,low,lowest,0
+1,0,1,0,189000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21110,365243,1,0,0,0,,2.0,high,high,lowest,0
+1,0,1,2,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12563,-1025,1,0,0,0,Cooking staff,4.0,lowest,low,lowest,0
+0,0,0,0,225000.0,Working,Higher education,Separated,House / apartment,-15734,-2996,1,1,1,0,Laborers,1.0,high,medium,lowest,0
+0,0,0,1,225000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12865,-804,1,0,0,0,,3.0,high,low,lowest,0
+0,1,1,3,180000.0,Working,Secondary / secondary special,Married,House / apartment,-14192,-824,1,1,1,0,High skill tech staff,5.0,medium,low,lowest,0
+1,0,1,0,306000.0,Working,Secondary / secondary special,Married,House / apartment,-18927,-2978,1,0,0,0,High skill tech staff,2.0,highest,high,lowest,1
+0,1,1,0,202500.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-12022,-1674,1,0,0,1,Laborers,2.0,high,low,lowest,1
+1,0,1,0,207000.0,Working,Secondary / secondary special,Married,House / apartment,-20488,-407,1,0,1,0,,2.0,high,high,lowest,0
+1,0,0,0,270000.0,Working,Secondary / secondary special,Married,House / apartment,-17778,-1719,1,1,1,0,High skill tech staff,2.0,highest,medium,lowest,0
+0,1,1,1,189000.0,Working,Incomplete higher,Married,House / apartment,-15287,-2501,1,0,1,0,,3.0,high,medium,lowest,0
+0,1,1,2,135000.0,Working,Secondary / secondary special,Married,House / apartment,-12296,-4314,1,0,0,0,,4.0,low,low,low,0
+0,1,1,0,247500.0,Working,Secondary / secondary special,Married,House / apartment,-14567,-7369,1,1,0,0,Laborers,2.0,high,low,medium,0
+1,0,1,1,135000.0,Working,Secondary / secondary special,Married,House / apartment,-10112,-3170,1,1,1,0,Laborers,3.0,low,lowest,lowest,0
+1,1,1,1,67500.0,Working,Secondary / secondary special,Married,House / apartment,-12821,-931,1,0,1,1,Laborers,3.0,lowest,low,lowest,0
+0,1,1,0,247500.0,Working,Secondary / secondary special,Married,House / apartment,-15366,-1266,1,1,1,0,Drivers,2.0,high,medium,lowest,0
+0,1,1,1,270000.0,Working,Secondary / secondary special,Married,House / apartment,-14488,-1630,1,0,1,0,Laborers,3.0,highest,low,lowest,0
+1,0,1,0,135000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21435,365243,1,0,0,0,,2.0,low,high,lowest,0
+1,0,0,1,135000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-10725,-2802,1,0,0,0,Private service staff,2.0,low,lowest,lowest,0
+1,1,0,0,180000.0,Working,Higher education,Married,House / apartment,-15184,-347,1,1,1,0,Managers,2.0,medium,medium,lowest,0
+1,0,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-11390,-515,1,0,1,0,Sales staff,2.0,low,low,lowest,0
+1,0,1,0,112500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-15839,-1381,1,0,1,0,High skill tech staff,1.0,lowest,medium,lowest,0
+1,0,0,0,67500.0,Working,Secondary / secondary special,Married,House / apartment,-18590,-3382,1,0,1,0,Laborers,2.0,lowest,high,low,0
+1,1,0,0,185400.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-14747,-3229,1,0,0,0,Laborers,2.0,high,medium,lowest,0
+1,0,1,0,225000.0,Pensioner,Secondary / secondary special,Separated,House / apartment,-20267,365243,1,0,0,0,,1.0,high,high,lowest,0
+0,0,0,0,225000.0,Working,Secondary / secondary special,Widow,Municipal apartment,-19406,-346,1,0,0,0,Security staff,1.0,high,high,lowest,1
+1,0,1,0,193500.0,Working,Secondary / secondary special,Married,House / apartment,-18391,-2331,1,0,0,0,,2.0,high,high,lowest,0
+0,1,1,1,180000.0,Working,Secondary / secondary special,Married,House / apartment,-16809,-3327,1,0,0,0,Managers,3.0,medium,medium,low,0
+1,0,1,0,135000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21579,365243,1,0,0,0,,2.0,low,highest,lowest,0
+1,0,1,0,360000.0,Working,Secondary / secondary special,Widow,House / apartment,-18388,-7830,1,0,0,0,Core staff,1.0,highest,high,medium,0
+1,0,1,0,135000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-13530,-95,1,0,0,0,Sales staff,1.0,low,low,lowest,0
+0,1,1,0,315000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21118,365243,1,0,0,0,,2.0,highest,high,lowest,0
+1,1,1,0,270000.0,Working,Secondary / secondary special,Married,House / apartment,-13095,-1652,1,0,0,0,High skill tech staff,2.0,highest,low,lowest,0
+1,0,0,0,337500.0,Working,Higher education,Widow,House / apartment,-15658,-188,1,1,1,1,Sales staff,1.0,highest,medium,lowest,0
+1,0,0,0,315000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-13630,-3230,1,0,1,0,High skill tech staff,2.0,highest,low,lowest,0
+1,0,1,0,144000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21916,365243,1,0,1,0,,2.0,medium,highest,lowest,0
+1,0,1,0,67500.0,Working,Secondary / secondary special,Married,House / apartment,-15408,-1726,1,0,0,1,Laborers,2.0,lowest,medium,lowest,0
+0,0,0,2,225000.0,Working,Higher education,Civil marriage,House / apartment,-16768,-3088,1,1,0,0,Laborers,4.0,high,medium,lowest,0
+1,0,0,0,441000.0,State servant,Higher education,Married,House / apartment,-18261,-7811,1,0,0,0,Core staff,2.0,highest,high,medium,0
+0,1,1,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-15556,-2331,1,0,1,0,Drivers,2.0,high,medium,lowest,0
+1,0,0,0,67500.0,Working,Secondary / secondary special,Married,With parents,-15675,-8691,1,1,1,0,Medicine staff,2.0,lowest,medium,medium,0
+0,1,0,2,315000.0,Working,Secondary / secondary special,Married,House / apartment,-12037,-197,1,0,0,0,Laborers,4.0,highest,low,lowest,1
+1,0,0,0,135000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-24255,365243,1,0,0,0,,2.0,low,highest,lowest,0
+1,0,1,0,247500.0,Working,Secondary / secondary special,Widow,House / apartment,-20030,-2607,1,0,0,0,Cooking staff,1.0,high,high,lowest,0
+0,1,1,0,216000.0,Commercial associate,Higher education,Married,House / apartment,-19147,-1868,1,0,1,0,Laborers,2.0,high,high,lowest,0
+1,0,1,0,144000.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-21431,365243,1,0,0,0,,1.0,medium,high,lowest,0
+1,0,1,0,193500.0,Working,Higher education,Single / not married,House / apartment,-17081,-4783,1,0,1,0,Laborers,1.0,high,medium,low,0
+0,1,1,0,405000.0,Working,Secondary / secondary special,Married,House / apartment,-17991,-683,1,0,0,0,Sales staff,2.0,highest,high,lowest,0
+1,0,0,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-11953,-5107,1,1,0,0,,3.0,lowest,low,low,0
+1,0,1,1,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-10796,-1958,1,1,1,0,Sales staff,3.0,lowest,lowest,lowest,0
+0,1,1,2,225000.0,Working,Secondary / secondary special,Married,House / apartment,-13600,-338,1,0,1,0,Laborers,4.0,high,low,lowest,0
+0,0,0,1,360000.0,Working,Higher education,Married,House / apartment,-11112,-469,1,1,1,0,Managers,3.0,highest,low,lowest,1
+1,0,1,0,423000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-13480,-3153,1,0,0,0,Private service staff,1.0,highest,low,lowest,0
+0,1,1,2,108000.0,State servant,Secondary / secondary special,Married,House / apartment,-12529,-918,1,1,0,0,,4.0,lowest,low,lowest,1
+0,1,0,2,135000.0,Working,Secondary / secondary special,Married,House / apartment,-14279,-5329,1,0,0,0,Sales staff,4.0,low,low,low,0
+1,0,1,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-9811,-864,1,0,0,0,Core staff,3.0,lowest,lowest,lowest,0
+0,0,1,0,76500.0,Working,Higher education,Married,House / apartment,-19862,-2295,1,1,1,0,Laborers,2.0,lowest,high,lowest,0
+0,1,0,2,450000.0,Working,Secondary / secondary special,Married,House / apartment,-14970,-7183,1,0,0,1,Drivers,4.0,highest,medium,medium,0
+0,0,1,0,360000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12483,-4039,1,0,0,0,Managers,2.0,highest,low,low,0
+1,0,1,2,180000.0,Working,Higher education,Married,House / apartment,-12860,-4657,1,1,1,0,High skill tech staff,4.0,medium,low,low,0
+1,0,1,1,180000.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-11920,-2967,1,0,0,0,Realty agents,3.0,medium,low,lowest,0
+1,1,1,0,315000.0,Working,Secondary / secondary special,Married,With parents,-17197,-2362,1,0,0,0,Managers,2.0,highest,medium,lowest,0
+0,1,1,2,171000.0,Working,Secondary / secondary special,Married,House / apartment,-13344,-1230,1,0,0,0,Core staff,4.0,medium,low,lowest,0
+0,0,0,0,225000.0,Commercial associate,Higher education,Married,With parents,-9412,-959,1,0,1,0,IT staff,2.0,high,lowest,lowest,0
+1,0,0,0,135000.0,Working,Incomplete higher,Single / not married,Rented apartment,-11448,-1982,1,0,0,0,Accountants,1.0,low,low,lowest,0
+1,0,1,1,202500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12926,-1241,1,0,0,0,,3.0,high,low,lowest,0
+1,1,1,1,157500.0,Working,Higher education,Separated,House / apartment,-9800,-2109,1,0,0,1,Medicine staff,2.0,medium,lowest,lowest,0
+1,0,1,1,202500.0,Commercial associate,Incomplete higher,Civil marriage,House / apartment,-13539,-1653,1,1,1,0,Core staff,3.0,high,low,lowest,0
+1,1,0,0,31500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-17762,-7734,1,1,1,0,Cleaning staff,2.0,lowest,medium,medium,0
+1,0,1,0,540000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-21093,-261,1,0,1,0,,1.0,highest,high,lowest,0
+1,0,1,1,270000.0,Working,Secondary / secondary special,Married,House / apartment,-19040,-1402,1,1,1,0,Managers,3.0,highest,high,lowest,1
+1,0,1,0,180000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23269,365243,1,0,1,0,,2.0,medium,highest,lowest,0
+1,0,1,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-16757,-3508,1,0,0,0,Core staff,2.0,medium,medium,low,0
+0,0,0,0,121500.0,Working,Secondary / secondary special,Married,House / apartment,-10312,-703,1,0,1,0,Laborers,2.0,low,lowest,lowest,0
+0,0,1,1,225000.0,Working,Higher education,Married,House / apartment,-13198,-3690,1,0,0,0,Core staff,3.0,high,low,low,0
+1,0,1,0,405000.0,Working,Higher education,Married,House / apartment,-17465,-7627,1,0,0,0,,2.0,highest,medium,medium,0
+1,0,1,0,292500.0,Working,Higher education,Separated,House / apartment,-19736,-12621,1,0,1,0,Core staff,1.0,highest,high,highest,0
+0,1,0,2,202500.0,Working,Higher education,Married,House / apartment,-11736,-727,1,0,0,0,Drivers,4.0,high,low,lowest,0
+1,0,1,1,225000.0,Working,Higher education,Married,House / apartment,-13071,-1344,1,0,0,0,Sales staff,3.0,high,low,lowest,0
+0,0,0,0,337500.0,Working,Higher education,Married,House / apartment,-13631,-2538,1,0,1,0,,2.0,highest,low,lowest,0
+1,1,1,0,202500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23390,365243,1,0,0,0,,2.0,high,highest,lowest,0
+1,0,0,1,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-9320,-2257,1,0,0,0,High skill tech staff,3.0,lowest,lowest,lowest,0
+1,0,0,1,90000.0,Working,Secondary / secondary special,Married,House / apartment,-12384,-2223,1,1,1,0,Sales staff,3.0,lowest,low,lowest,0
+1,0,1,0,135000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22886,365243,1,0,1,0,,2.0,low,highest,lowest,0
+1,0,0,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-20046,-3503,1,0,0,0,Sales staff,2.0,high,high,low,0
+0,0,1,1,157500.0,Working,Secondary / secondary special,Married,House / apartment,-12585,-367,1,0,0,0,Sales staff,3.0,medium,low,lowest,0
+0,1,1,0,270000.0,Commercial associate,Incomplete higher,Single / not married,House / apartment,-9022,-840,1,0,1,0,Waiters/barmen staff,1.0,highest,lowest,lowest,0
+0,1,1,2,202500.0,Working,Higher education,Married,House / apartment,-11132,-917,1,0,1,0,Laborers,4.0,high,low,lowest,0
+1,0,1,0,139500.0,Working,Secondary / secondary special,Married,House / apartment,-18730,-157,1,0,0,1,Cooking staff,2.0,medium,high,lowest,0
+1,1,1,1,225000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-10909,-1374,1,0,0,0,Managers,2.0,high,lowest,lowest,0
+1,0,1,2,54000.0,Pensioner,Higher education,Married,House / apartment,-22087,365243,1,0,0,0,,4.0,lowest,highest,lowest,0
+1,1,1,0,135000.0,Commercial associate,Higher education,Married,House / apartment,-12013,-3973,1,1,0,0,Accountants,2.0,low,low,low,0
+1,0,1,2,270000.0,Commercial associate,Higher education,Married,House / apartment,-11506,-2331,1,0,0,0,,4.0,highest,low,lowest,0
+1,1,1,2,180000.0,Working,Secondary / secondary special,Married,House / apartment,-13014,-1386,1,0,0,1,Laborers,4.0,medium,low,lowest,0
+1,0,0,1,157500.0,Working,Secondary / secondary special,Widow,House / apartment,-18571,-4602,1,1,0,0,,2.0,medium,high,low,0
+1,0,0,0,112500.0,Pensioner,Secondary / secondary special,Married,Municipal apartment,-21363,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+0,1,0,1,225000.0,Working,Secondary / secondary special,Married,House / apartment,-15243,-7260,1,1,1,0,High skill tech staff,3.0,high,medium,medium,0
+1,1,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-12415,-3695,1,0,0,0,Managers,2.0,low,low,low,0
+1,0,0,1,180000.0,Working,Higher education,Married,House / apartment,-11630,-3769,1,0,0,0,Laborers,3.0,medium,low,low,1
+1,0,0,0,72000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22527,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+1,0,0,0,135000.0,Working,Secondary / secondary special,Single / not married,Rented apartment,-13595,-1387,1,0,0,0,Laborers,1.0,low,low,lowest,0
+0,0,0,1,179271.0,Working,Higher education,Married,House / apartment,-10961,-1235,1,0,0,0,Managers,3.0,medium,low,lowest,1
+1,1,1,0,157500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-14330,-1936,1,0,0,0,Sales staff,2.0,medium,low,lowest,0
+1,0,1,1,67500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-18880,-4114,1,0,0,0,Accountants,3.0,lowest,high,low,1
+1,1,0,0,382500.0,Working,Higher education,Married,House / apartment,-15435,-3965,1,1,1,0,,2.0,highest,medium,low,0
+1,0,1,0,405000.0,Working,Higher education,Married,House / apartment,-17465,-7627,1,0,0,0,,2.0,highest,medium,medium,0
+1,0,1,1,675000.0,Commercial associate,Higher education,Married,House / apartment,-15843,-1398,1,0,1,0,Sales staff,3.0,highest,medium,lowest,0
+0,0,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-15484,-1408,1,1,1,0,Drivers,2.0,low,medium,lowest,0
+1,0,1,0,157500.0,Working,Incomplete higher,Single / not married,House / apartment,-9574,-171,1,1,1,0,Medicine staff,1.0,medium,lowest,lowest,0
+1,0,1,0,130500.0,State servant,Secondary / secondary special,Married,House / apartment,-12676,-3455,1,0,0,0,Core staff,2.0,low,low,low,0
+0,0,1,1,81000.0,Working,Secondary / secondary special,Married,House / apartment,-16055,-3664,1,0,1,0,Laborers,3.0,lowest,medium,low,0
+1,0,1,0,337500.0,State servant,Higher education,Single / not married,House / apartment,-15835,-392,1,1,1,0,Managers,1.0,highest,medium,lowest,0
+1,0,1,1,135000.0,Commercial associate,Higher education,Married,House / apartment,-11416,-420,1,0,0,0,High skill tech staff,3.0,low,low,lowest,0
+1,0,0,0,157500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21253,365243,1,0,1,0,,2.0,medium,high,lowest,0
+0,0,0,0,180000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-9380,-1713,1,1,1,0,,1.0,medium,lowest,lowest,0
+1,0,1,0,315000.0,Working,Higher education,Married,House / apartment,-15527,-3792,1,1,1,0,Accountants,2.0,highest,medium,low,0
+1,0,1,0,76500.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-22204,365243,1,0,1,0,,1.0,lowest,highest,lowest,0
+1,0,1,2,157500.0,Working,Secondary / secondary special,Married,House / apartment,-10710,-2351,1,0,0,0,Sales staff,4.0,medium,lowest,lowest,0
+1,0,1,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-19973,-5311,1,0,0,0,Sales staff,2.0,medium,high,low,0
+1,1,0,0,135000.0,Working,Secondary / secondary special,Widow,House / apartment,-23224,-3382,1,1,1,0,Core staff,1.0,low,highest,low,0
+0,1,0,0,157500.0,Working,Incomplete higher,Married,With parents,-9124,-960,1,1,0,0,Drivers,2.0,medium,lowest,lowest,1
+1,0,1,0,90000.0,Working,Secondary / secondary special,Separated,House / apartment,-15093,-1843,1,0,1,0,Sales staff,1.0,lowest,medium,lowest,0
+0,1,1,0,144000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22605,365243,1,0,1,0,,2.0,medium,highest,lowest,0
+1,1,1,0,225000.0,Working,Higher education,Married,House / apartment,-17088,-1991,1,0,0,0,Sales staff,2.0,high,medium,lowest,0
+0,0,0,0,171000.0,Commercial associate,Incomplete higher,Single / not married,House / apartment,-11610,-166,1,1,1,0,High skill tech staff,1.0,medium,low,lowest,1
+0,1,0,1,337500.0,State servant,Higher education,Married,House / apartment,-12794,-3574,1,0,0,0,,3.0,highest,low,low,0
+1,0,1,1,90000.0,Working,Higher education,Married,House / apartment,-11574,-3608,1,0,1,0,High skill tech staff,3.0,lowest,low,low,0
+1,0,1,0,202500.0,Working,Higher education,Married,House / apartment,-10669,-1495,1,0,0,0,,2.0,high,lowest,lowest,0
+1,0,0,0,76500.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-23885,365243,1,0,0,0,,1.0,lowest,highest,lowest,0
+1,0,1,0,99000.0,Pensioner,Secondary / secondary special,Civil marriage,House / apartment,-19967,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,0,0,126000.0,Pensioner,Secondary / secondary special,Separated,House / apartment,-19191,365243,1,0,0,0,,1.0,low,high,lowest,0
+1,0,1,0,180000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-18913,-807,1,0,0,0,Laborers,1.0,medium,high,lowest,0
+1,0,0,0,117000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15607,-2437,1,0,0,0,Sales staff,2.0,low,medium,lowest,0
+1,0,1,0,112500.0,Working,Incomplete higher,Single / not married,House / apartment,-8213,-347,1,0,0,0,Sales staff,1.0,lowest,lowest,lowest,0
+0,1,0,0,180000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-9278,-1113,1,0,0,0,,1.0,medium,lowest,lowest,0
+1,0,1,0,180000.0,Pensioner,Secondary / secondary special,Civil marriage,House / apartment,-20844,365243,1,0,0,0,,2.0,medium,high,lowest,0
+0,0,1,1,81000.0,Working,Secondary / secondary special,Married,House / apartment,-16055,-3664,1,0,1,0,Laborers,3.0,lowest,medium,low,0
+0,0,1,0,229500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-16481,-1292,1,1,1,0,Drivers,1.0,high,medium,lowest,0
+0,1,1,0,90000.0,Working,Secondary / secondary special,Married,House / apartment,-17637,-5276,1,0,0,0,Managers,2.0,lowest,medium,low,0
+0,0,1,1,292500.0,State servant,Higher education,Married,House / apartment,-16833,-3515,1,0,0,1,Core staff,3.0,highest,medium,low,0
+0,0,0,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-21261,-405,1,0,0,0,Security staff,2.0,medium,high,lowest,0
+0,1,0,0,157500.0,Working,Incomplete higher,Married,With parents,-9124,-960,1,1,0,0,Drivers,2.0,medium,lowest,lowest,1
+1,0,1,2,135000.0,Commercial associate,Lower secondary,Civil marriage,With parents,-9862,-1868,1,1,0,0,Sales staff,4.0,low,lowest,lowest,1
+1,1,1,0,112500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20690,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,1,0,72000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22179,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,1,1,0,360000.0,Working,Higher education,Married,House / apartment,-22111,-3854,1,0,0,0,Managers,2.0,highest,highest,low,0
+1,0,0,0,112500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-24001,365243,1,0,0,0,,2.0,lowest,highest,lowest,1
+1,0,1,0,180000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21648,365243,1,0,1,0,,2.0,medium,highest,lowest,1
+0,0,1,0,382500.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-21673,365243,1,0,0,0,,1.0,highest,highest,lowest,0
+0,0,1,1,135000.0,Working,Secondary / secondary special,Married,Rented apartment,-10414,-2742,1,1,1,0,Laborers,3.0,low,lowest,lowest,0
+1,1,0,0,72000.0,Working,Secondary / secondary special,Married,House / apartment,-15185,-227,1,1,1,0,Medicine staff,2.0,lowest,medium,lowest,1
+0,0,0,0,148500.0,Working,Higher education,Married,House / apartment,-15544,-3631,1,0,1,0,Laborers,2.0,medium,medium,low,0
+1,0,1,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-14790,-1661,1,1,0,0,,2.0,lowest,medium,lowest,0
+0,0,1,0,189000.0,Commercial associate,Higher education,Single / not married,House / apartment,-8111,-287,1,0,0,0,,1.0,high,lowest,lowest,0
+0,1,1,1,900000.0,Working,Secondary / secondary special,Married,Co-op apartment,-15344,-1101,1,0,0,0,Managers,3.0,highest,medium,lowest,0
+1,0,0,0,405000.0,Working,Higher education,Married,House / apartment,-16388,-7127,1,0,0,0,,2.0,highest,medium,medium,0
+1,1,1,0,247500.0,Working,Incomplete higher,Separated,House / apartment,-19672,-1375,1,1,0,0,Accountants,1.0,high,high,lowest,0
+1,0,0,0,81000.0,Working,Secondary / secondary special,Married,House / apartment,-9172,-2175,1,1,0,0,Laborers,2.0,lowest,lowest,lowest,0
+1,0,1,0,216000.0,Pensioner,Secondary / secondary special,Civil marriage,House / apartment,-22891,365243,1,0,0,0,,2.0,high,highest,lowest,0
+1,0,0,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-18232,-277,1,0,0,0,Managers,2.0,medium,high,lowest,1
+0,0,0,2,225000.0,Working,Higher education,Civil marriage,House / apartment,-16768,-3088,1,1,0,0,Laborers,4.0,high,medium,lowest,0
+1,1,0,0,180000.0,Pensioner,Higher education,Separated,House / apartment,-23603,365243,1,0,0,0,,1.0,medium,highest,lowest,0
+1,0,1,0,103500.0,Working,Secondary / secondary special,Married,House / apartment,-10396,-564,1,0,0,1,IT staff,2.0,lowest,lowest,lowest,1
+1,0,1,1,157500.0,State servant,Secondary / secondary special,Married,House / apartment,-16425,-2842,1,0,0,0,Managers,3.0,medium,medium,lowest,0
+0,0,1,1,135000.0,Working,Secondary / secondary special,Married,House / apartment,-11729,-652,1,0,0,0,Laborers,3.0,low,low,lowest,0
+0,1,0,0,157500.0,Working,Incomplete higher,Married,With parents,-9124,-960,1,1,0,0,Drivers,2.0,medium,lowest,lowest,1
+1,1,1,1,180000.0,Commercial associate,Higher education,Married,House / apartment,-9862,-2988,1,1,1,0,Core staff,3.0,medium,lowest,lowest,0
+0,1,0,1,270000.0,Working,Secondary / secondary special,Separated,House / apartment,-13425,-3143,1,0,0,0,Drivers,2.0,highest,low,lowest,0
+0,1,1,2,337500.0,State servant,Secondary / secondary special,Married,Office apartment,-12977,-3970,1,0,0,0,Laborers,4.0,highest,low,low,0
+1,1,1,0,270000.0,Commercial associate,Higher education,Married,House / apartment,-22159,-5864,1,0,1,0,,2.0,highest,highest,low,0
+1,0,0,0,67500.0,Working,Secondary / secondary special,Married,House / apartment,-18549,-1160,1,1,0,0,,2.0,lowest,high,lowest,0
+1,1,1,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-14854,-2452,1,0,1,0,,2.0,medium,medium,lowest,0
+1,0,1,0,144000.0,Working,Secondary / secondary special,Married,House / apartment,-19975,-10780,1,1,1,0,Laborers,2.0,medium,high,high,0
+1,1,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-13724,-638,1,0,0,0,,2.0,high,low,lowest,0
+0,0,1,0,157500.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-14288,-878,1,0,0,0,Laborers,1.0,medium,low,lowest,0
+1,0,0,0,270000.0,Commercial associate,Secondary / secondary special,Separated,Municipal apartment,-16999,-1140,1,1,1,0,Sales staff,1.0,highest,medium,lowest,0
+1,0,1,0,238500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23171,365243,1,0,0,0,,2.0,high,highest,lowest,0
+1,1,0,0,216000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-19765,-9925,1,1,1,0,,1.0,high,high,high,0
+0,1,1,0,270000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-13805,-1557,1,0,0,0,Laborers,1.0,highest,low,lowest,0
+0,0,0,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-14362,-288,1,1,1,0,Laborers,2.0,medium,low,lowest,0
+1,1,1,1,157500.0,Working,Higher education,Married,With parents,-10845,-521,1,0,0,1,High skill tech staff,3.0,medium,lowest,lowest,0
+1,0,1,0,112500.0,Working,Secondary / secondary special,Widow,House / apartment,-14491,-1955,1,0,0,0,Sales staff,1.0,lowest,low,lowest,0
+1,0,1,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-14891,-1254,1,0,0,0,Laborers,2.0,medium,medium,lowest,0
+1,0,0,0,270000.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-21861,365243,1,0,0,0,,1.0,highest,highest,lowest,0
+1,0,0,0,252000.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-22765,365243,1,0,0,0,,1.0,highest,highest,lowest,0
+0,1,0,1,90000.0,Working,Secondary / secondary special,Married,With parents,-12829,-765,1,1,1,0,Core staff,3.0,lowest,low,lowest,0
+1,0,1,1,202500.0,Working,Secondary / secondary special,Married,House / apartment,-13086,-1212,1,0,0,0,Laborers,3.0,high,low,lowest,0
+1,0,0,0,162000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21244,365243,1,0,0,0,,2.0,medium,high,lowest,0
+1,0,1,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-20295,-3700,1,0,0,0,Laborers,2.0,high,high,low,0
+1,0,1,0,166500.0,Commercial associate,Higher education,Married,House / apartment,-9663,-468,1,0,1,0,Accountants,2.0,medium,lowest,lowest,0
+1,0,0,0,166500.0,Working,Higher education,Married,House / apartment,-21466,-3992,1,0,0,0,Core staff,2.0,medium,high,low,0
+1,1,1,0,135000.0,Working,Secondary / secondary special,Separated,House / apartment,-16211,-1406,1,0,0,0,Laborers,1.0,low,medium,lowest,0
+0,1,1,2,254700.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-17254,-9131,1,0,1,0,Laborers,4.0,highest,medium,medium,0
+1,0,0,0,157500.0,Working,Incomplete higher,Married,House / apartment,-12402,-917,1,1,0,0,Managers,2.0,medium,low,lowest,0
+0,0,1,0,81000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-21027,-2719,1,0,0,0,Security staff,1.0,lowest,high,lowest,0
+1,0,1,0,193500.0,Working,Secondary / secondary special,Separated,House / apartment,-19063,-2213,1,1,1,1,Laborers,1.0,high,high,lowest,0
+1,1,0,0,112500.0,State servant,Secondary / secondary special,Married,House / apartment,-21842,-3869,1,0,0,0,High skill tech staff,2.0,lowest,highest,low,0
+1,1,1,2,450000.0,Working,Secondary / secondary special,Married,House / apartment,-14874,-4693,1,0,0,0,Core staff,4.0,highest,medium,low,0
+1,0,1,0,81000.0,Working,Secondary / secondary special,Married,House / apartment,-19661,-3046,1,1,1,0,Managers,2.0,lowest,high,lowest,0
+1,0,0,0,90000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-12157,-1493,1,0,0,0,Core staff,1.0,lowest,low,lowest,0
+1,0,1,0,81000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15580,-3503,1,0,0,0,Sales staff,2.0,lowest,medium,low,0
+1,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-14918,-1866,1,0,0,0,Sales staff,2.0,low,medium,lowest,0
+0,1,1,0,108000.0,Working,Higher education,Married,House / apartment,-20839,-536,1,0,0,0,Laborers,2.0,lowest,high,lowest,0
+1,1,0,0,67500.0,Working,Secondary / secondary special,Married,House / apartment,-18198,-2106,1,0,1,0,Sales staff,2.0,lowest,high,lowest,0
+1,0,1,0,157500.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-20441,365243,1,0,0,0,,1.0,medium,high,lowest,0
+1,0,1,2,337500.0,State servant,Higher education,Married,House / apartment,-15648,-4157,1,1,0,1,Managers,4.0,highest,medium,low,0
+1,0,1,0,67500.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-18670,365243,1,0,0,0,,1.0,lowest,high,lowest,0
+1,0,1,0,292500.0,Working,Higher education,Single / not married,House / apartment,-15303,-108,1,0,0,0,,1.0,highest,medium,lowest,0
+1,0,1,2,157500.0,Working,Secondary / secondary special,Married,House / apartment,-10710,-2351,1,0,0,0,Sales staff,4.0,medium,lowest,lowest,0
+1,0,1,0,171000.0,Pensioner,Higher education,Married,House / apartment,-19961,365243,1,0,0,0,,2.0,medium,high,lowest,0
+0,0,1,0,112500.0,Commercial associate,Higher education,Married,House / apartment,-20103,-555,1,0,0,0,Security staff,2.0,lowest,high,lowest,1
+0,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-23093,-659,1,1,0,0,Security staff,2.0,low,highest,lowest,0
+1,0,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-17000,-5740,1,0,0,0,Cooking staff,2.0,low,medium,low,1
+0,1,1,2,202500.0,Commercial associate,Higher education,Married,House / apartment,-18302,-2124,1,0,0,0,Managers,4.0,high,high,lowest,0
+0,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-19924,-4822,1,0,0,1,Drivers,2.0,low,high,low,0
+1,0,1,0,135000.0,Commercial associate,Higher education,Single / not married,House / apartment,-19392,-121,1,0,1,0,,1.0,low,high,lowest,0
+0,1,1,3,270000.0,Working,Secondary / secondary special,Married,House / apartment,-13427,-458,1,1,0,0,Laborers,5.0,highest,low,lowest,0
+1,1,0,0,157500.0,Working,Incomplete higher,Married,With parents,-9116,-696,1,1,1,0,Drivers,2.0,medium,lowest,lowest,0
+1,0,1,0,135000.0,Pensioner,Lower secondary,Married,House / apartment,-22569,365243,1,0,0,0,,2.0,low,highest,lowest,0
+0,1,1,0,126000.0,Working,Higher education,Single / not married,House / apartment,-14522,-863,1,1,0,0,Managers,1.0,low,low,lowest,1
+1,0,1,0,180000.0,Pensioner,Higher education,Married,House / apartment,-21881,365243,1,0,0,0,,2.0,medium,highest,lowest,0
+1,0,1,1,108000.0,Working,Secondary / secondary special,Married,House / apartment,-13012,-1342,1,0,1,0,Sales staff,3.0,lowest,low,lowest,0
+1,0,1,0,112500.0,Commercial associate,Higher education,Married,House / apartment,-17472,-1202,1,1,1,0,,2.0,lowest,medium,lowest,0
+1,0,0,0,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-21188,-5818,1,0,0,0,,2.0,lowest,high,low,0
+1,0,0,0,112500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22365,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,1,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-8899,-2326,1,1,1,0,Waiters/barmen staff,2.0,low,lowest,lowest,0
+1,0,0,1,90000.0,Working,Secondary / secondary special,Married,House / apartment,-16118,-1959,1,0,1,0,,3.0,lowest,medium,lowest,0
+1,0,0,2,72000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12417,-2265,1,1,0,0,Sales staff,4.0,lowest,low,lowest,0
+0,0,1,0,90900.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22233,365243,1,0,1,0,,2.0,lowest,highest,lowest,0
+1,0,1,0,90000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23225,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+1,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15875,-2758,1,1,1,0,Core staff,2.0,low,medium,lowest,0
+1,0,1,0,202500.0,Pensioner,Higher education,Single / not married,House / apartment,-21344,365243,1,0,1,1,,1.0,high,high,lowest,0
+1,0,0,2,180000.0,State servant,Secondary / secondary special,Married,House / apartment,-11950,-4022,1,0,1,0,Medicine staff,4.0,medium,low,low,0
+0,0,0,0,90000.0,Working,Secondary / secondary special,Widow,Municipal apartment,-20017,-3503,1,1,1,0,Sales staff,1.0,lowest,high,low,1
+0,0,0,1,225000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12865,-804,1,0,0,0,,3.0,high,low,lowest,0
+1,1,1,0,157500.0,Working,Incomplete higher,Married,House / apartment,-9389,-1632,1,1,1,0,,2.0,medium,lowest,lowest,0
+1,0,1,1,67500.0,Working,Secondary / secondary special,Separated,House / apartment,-11126,-2087,1,1,1,0,Accountants,2.0,lowest,low,lowest,0
+0,0,1,0,90000.0,Working,Secondary / secondary special,Separated,Rented apartment,-9327,-96,1,0,0,0,Laborers,1.0,lowest,lowest,lowest,0
+1,0,1,0,126000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-22659,-15661,1,0,0,0,Core staff,2.0,low,highest,highest,0
+0,0,1,0,225000.0,Working,Lower secondary,Married,Municipal apartment,-10565,-811,1,1,1,0,,2.0,high,lowest,lowest,0
+0,1,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-17915,-3366,1,0,0,0,Drivers,2.0,high,high,low,0
+0,1,1,0,184500.0,Working,Secondary / secondary special,Married,House / apartment,-12298,-1200,1,0,0,0,Drivers,2.0,high,low,lowest,0
+1,0,1,0,225000.0,Commercial associate,Higher education,Married,House / apartment,-9418,-1595,1,0,1,0,Managers,2.0,high,lowest,lowest,0
+1,0,1,1,225000.0,State servant,Secondary / secondary special,Single / not married,House / apartment,-15899,-3993,1,0,0,0,,2.0,high,medium,low,0
+1,0,1,0,157500.0,State servant,Higher education,Married,House / apartment,-20163,-223,1,1,1,0,Core staff,2.0,medium,high,lowest,0
+1,0,1,1,112500.0,Working,Higher education,Single / not married,House / apartment,-15303,-1131,1,0,0,0,Core staff,2.0,lowest,medium,lowest,0
+0,0,0,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-14865,-925,1,0,0,0,,2.0,medium,medium,lowest,0
+1,0,1,0,180000.0,Working,Lower secondary,Widow,House / apartment,-16803,-2227,1,1,1,0,Cleaning staff,1.0,medium,medium,lowest,0
+1,0,1,0,225000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-12325,-187,1,0,0,0,Core staff,2.0,high,low,lowest,0
+1,0,0,1,81000.0,State servant,Higher education,Married,With parents,-11707,-2317,1,0,0,0,Core staff,3.0,lowest,low,lowest,0
+0,1,1,1,270000.0,State servant,Secondary / secondary special,Married,House / apartment,-18871,-3928,1,0,0,0,Drivers,3.0,highest,high,low,0
+1,0,1,0,202500.0,Working,Secondary / secondary special,Separated,House / apartment,-21878,-7851,1,0,0,0,Cleaning staff,1.0,high,highest,medium,0
+0,0,1,0,225000.0,Working,Incomplete higher,Married,House / apartment,-11616,-3344,1,1,1,0,Laborers,2.0,high,low,low,0
+1,0,0,0,157500.0,Commercial associate,Higher education,Single / not married,Rented apartment,-11785,-1415,1,0,0,0,,1.0,medium,low,lowest,0
+1,1,0,0,60750.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-18465,365243,1,0,0,0,,1.0,lowest,high,lowest,0
+1,0,0,1,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-9582,-747,1,0,0,0,Sales staff,3.0,lowest,lowest,lowest,0
+1,0,1,1,180000.0,Commercial associate,Secondary / secondary special,Separated,House / apartment,-18520,-2101,1,0,1,1,Core staff,2.0,medium,high,lowest,0
+0,1,0,1,337500.0,State servant,Higher education,Married,House / apartment,-12794,-3574,1,0,0,0,,3.0,highest,low,low,0
+1,1,0,1,148500.0,Working,Secondary / secondary special,Married,House / apartment,-11675,-3779,1,1,0,0,Sales staff,3.0,medium,low,low,0
+1,0,1,1,337500.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-17738,-4710,1,1,1,0,Laborers,3.0,highest,medium,low,0
+1,0,1,0,157500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20111,365243,1,0,0,0,,2.0,medium,high,lowest,0
+1,0,0,0,247500.0,Working,Higher education,Single / not married,With parents,-10343,-2058,1,0,0,1,Sales staff,1.0,high,lowest,lowest,0
+0,1,0,0,267750.0,Working,Higher education,Married,House / apartment,-20991,-4727,1,0,1,0,Laborers,2.0,highest,high,low,0
+0,1,1,0,270000.0,Working,Secondary / secondary special,Married,House / apartment,-12257,-1463,1,0,0,0,Laborers,2.0,highest,low,lowest,0
+0,1,1,0,315000.0,Working,Higher education,Married,House / apartment,-10847,-2712,1,0,0,0,Laborers,2.0,highest,lowest,lowest,0
+1,0,1,1,360000.0,Working,Secondary / secondary special,Married,House / apartment,-15864,-2696,1,0,1,0,High skill tech staff,3.0,highest,medium,lowest,0
+1,0,1,1,126000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-18140,-4119,1,0,0,0,Laborers,3.0,low,high,low,0
+1,0,0,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12044,-2805,1,0,0,0,Sales staff,3.0,lowest,low,lowest,0
+1,0,0,1,159750.0,Commercial associate,Higher education,Civil marriage,House / apartment,-9167,-317,1,1,1,0,Core staff,3.0,medium,lowest,lowest,0
+0,0,1,1,157500.0,Working,Secondary / secondary special,Married,House / apartment,-12272,-2212,1,1,0,0,Laborers,3.0,medium,low,lowest,0
+1,0,1,0,612000.0,State servant,Secondary / secondary special,Married,House / apartment,-12563,-3715,1,0,0,1,Accountants,2.0,highest,low,low,0
+1,0,1,0,157500.0,Commercial associate,Secondary / secondary special,Married,Municipal apartment,-19566,-2778,1,0,0,0,Laborers,2.0,medium,high,lowest,0
+1,0,1,2,121500.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-10625,-1800,1,0,0,0,Sales staff,4.0,low,lowest,lowest,0
+1,0,1,0,315000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-23174,-2354,1,0,0,0,Sales staff,2.0,highest,highest,lowest,0
+0,0,0,0,225000.0,State servant,Secondary / secondary special,Married,House / apartment,-15108,-211,1,1,1,0,Drivers,2.0,high,medium,lowest,0
+1,0,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-18757,-2057,1,0,0,0,Core staff,2.0,low,high,lowest,0
+1,0,1,0,112500.0,State servant,Secondary / secondary special,Married,House / apartment,-18794,-6358,1,0,0,0,High skill tech staff,2.0,lowest,high,medium,0
+1,0,0,1,90000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-9861,365243,1,0,0,0,,3.0,lowest,lowest,lowest,0
+0,0,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-19378,-396,1,0,0,0,Drivers,2.0,high,high,lowest,0
+0,1,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-15849,-1958,1,0,0,0,Laborers,2.0,low,medium,lowest,0
+1,0,1,1,180000.0,Commercial associate,Higher education,Separated,House / apartment,-17289,-5550,1,0,0,1,Managers,2.0,medium,medium,low,0
+1,1,1,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-14784,-5817,1,0,0,0,Security staff,2.0,lowest,medium,low,0
+1,0,0,0,90000.0,Working,Secondary / secondary special,Married,Municipal apartment,-19120,-2567,1,0,1,0,Laborers,2.0,lowest,high,lowest,0
+1,1,1,1,121500.0,Working,Secondary / secondary special,Married,House / apartment,-15999,-3269,1,1,0,0,Sales staff,3.0,low,medium,lowest,0
+0,1,0,1,540000.0,Working,Higher education,Married,House / apartment,-14093,-704,1,1,0,0,,3.0,highest,low,lowest,0
+0,1,1,0,202500.0,Working,Incomplete higher,Married,House / apartment,-17242,-857,1,0,1,0,Security staff,2.0,high,medium,lowest,0
+1,1,0,2,162000.0,Commercial associate,Incomplete higher,Married,House / apartment,-9662,-796,1,1,1,0,Core staff,4.0,medium,lowest,lowest,1
+1,0,1,0,108000.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-12098,-2226,1,1,0,0,Sales staff,2.0,lowest,low,lowest,0
+1,0,1,0,67500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21026,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+1,0,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-15839,-1525,1,1,1,0,Sales staff,2.0,low,medium,lowest,0
+0,0,1,0,211500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-10072,-1101,1,1,1,0,Core staff,1.0,high,lowest,lowest,0
+1,0,1,0,103500.0,Working,Secondary / secondary special,Married,House / apartment,-22466,-12870,1,1,1,0,Managers,2.0,lowest,highest,highest,0
+0,1,1,2,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12170,-926,1,0,0,0,Laborers,4.0,lowest,low,lowest,0
+1,0,1,0,112500.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-22119,365243,1,0,0,0,,1.0,lowest,highest,lowest,0
+1,0,1,2,67500.0,Working,Secondary / secondary special,Married,House / apartment,-15630,-716,1,0,0,0,Cleaning staff,4.0,lowest,medium,lowest,0
+1,0,1,0,90000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22123,365243,1,0,0,1,,2.0,lowest,highest,lowest,0
+0,1,0,2,292500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-14670,-6957,1,0,1,0,,4.0,highest,medium,medium,0
+1,0,1,0,157500.0,State servant,Higher education,Married,House / apartment,-9313,-615,1,0,0,0,,2.0,medium,lowest,lowest,0
+0,0,0,0,202500.0,Working,Secondary / secondary special,Separated,House / apartment,-14364,-6352,1,0,0,0,Laborers,1.0,high,low,medium,0
+0,1,0,2,292500.0,State servant,Secondary / secondary special,Married,With parents,-15583,-6031,1,0,1,0,Drivers,4.0,highest,medium,low,0
+0,0,1,0,270000.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-14638,-5891,1,0,0,0,Laborers,1.0,highest,medium,low,0
+0,1,1,0,247500.0,Working,Secondary / secondary special,Married,House / apartment,-10952,-3577,1,1,0,0,Laborers,2.0,high,low,low,1
+1,0,1,0,202500.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-16546,-1995,1,0,0,0,Core staff,1.0,high,medium,lowest,0
+1,1,0,0,252000.0,Commercial associate,Higher education,Single / not married,House / apartment,-9097,-132,1,0,0,0,Managers,1.0,highest,lowest,lowest,0
+0,1,1,1,292500.0,Commercial associate,Higher education,Married,House / apartment,-12569,-3322,1,0,0,0,,3.0,highest,low,low,0
+1,0,1,0,247500.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-24511,365243,1,0,0,0,,1.0,high,highest,lowest,0
+0,1,1,0,112500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-9952,-1613,1,0,0,0,,1.0,lowest,lowest,lowest,0
+1,0,1,0,360000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22933,365243,1,0,0,0,,2.0,highest,highest,lowest,0
+0,1,0,0,157500.0,Working,Secondary / secondary special,Married,House / apartment,-23424,-14887,1,0,0,0,Laborers,2.0,medium,highest,highest,0
+1,0,0,0,157500.0,Working,Higher education,Married,House / apartment,-14098,-2257,1,0,0,0,Core staff,2.0,medium,low,lowest,0
+0,1,0,0,157500.0,Working,Higher education,Married,House / apartment,-15602,-611,1,0,0,0,,2.0,medium,medium,lowest,0
+0,0,1,0,90000.0,Working,Secondary / secondary special,Married,House / apartment,-18427,-1296,1,0,0,0,Laborers,2.0,lowest,high,lowest,0
+1,0,0,1,387000.0,Commercial associate,Higher education,Married,House / apartment,-15220,-727,1,0,0,0,,3.0,highest,medium,lowest,0
+0,0,1,1,270000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15646,-4614,1,0,0,0,Laborers,3.0,highest,medium,low,0
+0,1,1,2,315000.0,Working,Higher education,Married,House / apartment,-13803,-160,1,1,1,0,,4.0,highest,low,lowest,0
+1,1,1,1,247500.0,Working,Secondary / secondary special,Married,House / apartment,-15937,-3214,1,0,0,0,Laborers,3.0,high,medium,lowest,0
+1,0,0,0,135000.0,Pensioner,Higher education,Widow,House / apartment,-21232,365243,1,0,1,0,,1.0,low,high,lowest,0
+0,1,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-13483,-1816,1,1,1,0,Laborers,2.0,low,low,lowest,0
+1,0,1,0,180000.0,Pensioner,Secondary / secondary special,Civil marriage,House / apartment,-21369,365243,1,0,1,0,,2.0,medium,high,lowest,0
+1,1,1,0,256500.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-18554,-703,1,0,0,0,Core staff,1.0,highest,high,lowest,0
+1,1,0,0,90000.0,Pensioner,Higher education,Widow,House / apartment,-24210,365243,1,0,0,0,,1.0,lowest,highest,lowest,0
+1,0,0,0,171000.0,State servant,Secondary / secondary special,Single / not married,House / apartment,-19570,-1625,1,0,0,0,Laborers,1.0,medium,high,lowest,0
+0,1,0,2,261000.0,Working,Secondary / secondary special,Married,House / apartment,-15921,-1650,1,0,0,0,High skill tech staff,4.0,highest,medium,lowest,0
+0,1,1,0,202500.0,Commercial associate,Secondary / secondary special,Married,Rented apartment,-10482,-2654,1,0,0,0,,2.0,high,lowest,lowest,0
+0,0,1,0,202500.0,Working,Secondary / secondary special,Married,House / apartment,-16958,-298,1,0,0,0,,2.0,high,medium,lowest,0
+1,0,0,7,157500.0,Working,Secondary / secondary special,Married,House / apartment,-13827,-1649,1,1,1,0,Cleaning staff,9.0,medium,low,lowest,0
+0,1,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-17235,-2700,1,0,1,0,Core staff,2.0,low,medium,lowest,0
+1,0,1,0,135000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15875,-2758,1,1,1,0,Core staff,2.0,low,medium,lowest,0
+1,0,1,0,247500.0,Commercial associate,Higher education,Single / not married,House / apartment,-11984,-2043,1,0,0,1,Core staff,1.0,high,low,lowest,0
+1,0,1,1,337500.0,Commercial associate,Higher education,Single / not married,House / apartment,-14408,-431,1,0,0,0,Accountants,2.0,highest,low,lowest,0
+1,0,0,2,135000.0,State servant,Incomplete higher,Married,With parents,-11637,-2285,1,1,1,0,Core staff,4.0,low,low,lowest,0
+1,0,1,0,144000.0,State servant,Secondary / secondary special,Married,House / apartment,-18136,-10110,1,0,1,0,High skill tech staff,2.0,medium,high,high,0
+0,1,1,0,270000.0,Working,Higher education,Married,House / apartment,-10942,-412,1,0,0,0,Drivers,2.0,highest,lowest,lowest,0
+0,1,1,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-12604,-2620,1,1,1,0,Managers,2.0,medium,low,lowest,1
+0,1,1,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-12488,-747,1,0,0,1,Laborers,2.0,medium,low,lowest,0
+1,0,1,0,202500.0,Working,Higher education,Married,House / apartment,-19444,-2832,1,0,0,0,,2.0,high,high,lowest,0
+0,0,1,1,562500.0,Working,Incomplete higher,Married,House / apartment,-13790,-5639,1,1,1,0,,3.0,highest,low,low,0
+1,1,0,0,126000.0,State servant,Incomplete higher,Single / not married,House / apartment,-11978,-5206,1,1,0,0,Core staff,1.0,low,low,low,0
+0,1,1,1,360000.0,Working,Higher education,Married,House / apartment,-16250,-747,1,0,0,0,Managers,3.0,highest,medium,lowest,0
+0,1,1,0,225000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23209,365243,1,0,0,0,,2.0,high,highest,lowest,0
+1,1,1,0,112500.0,Working,Higher education,Married,House / apartment,-14369,-402,1,0,1,0,Core staff,2.0,lowest,low,lowest,0
+1,1,1,0,185400.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-23584,365243,1,0,0,0,,1.0,high,highest,lowest,0
+0,0,0,1,162000.0,Working,Higher education,Married,Municipal apartment,-11045,-939,1,0,0,0,,3.0,medium,low,lowest,0
+0,1,0,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12002,-2262,1,1,0,0,Sales staff,2.0,lowest,low,lowest,0
+0,1,0,0,180000.0,Working,Higher education,Married,With parents,-12956,-5553,1,0,0,0,,2.0,medium,low,low,0
+1,0,1,2,157500.0,Commercial associate,Higher education,Married,House / apartment,-11221,-4244,1,1,1,0,Laborers,4.0,medium,low,low,0
+1,1,0,1,148500.0,Working,Secondary / secondary special,Married,House / apartment,-11675,-3779,1,1,0,0,Sales staff,3.0,medium,low,low,0
+0,1,1,0,126000.0,Working,Secondary / secondary special,Married,House / apartment,-19286,-3489,1,1,0,0,Security staff,2.0,low,high,low,1
+1,0,1,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-8552,-1562,1,0,0,0,Sales staff,2.0,lowest,lowest,lowest,0
+1,1,1,0,382500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-11298,-4714,1,1,0,0,Laborers,1.0,highest,low,low,0
+1,0,1,0,90000.0,Working,Higher education,Single / not married,House / apartment,-11848,-467,1,0,0,0,Laborers,1.0,lowest,low,lowest,0
+1,0,0,0,76500.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-20775,365243,1,0,1,0,,1.0,lowest,high,lowest,0
+1,1,1,1,112500.0,Working,Secondary / secondary special,Married,House / apartment,-15174,-3292,1,1,0,0,Sales staff,3.0,lowest,medium,low,0
+1,0,0,0,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-20285,-1734,1,1,1,0,High skill tech staff,2.0,lowest,high,lowest,1
+1,0,0,0,135000.0,Pensioner,Secondary / secondary special,Single / not married,House / apartment,-21312,365243,1,0,0,0,,2.0,low,high,lowest,1
+1,1,0,0,112500.0,State servant,Secondary / secondary special,Married,House / apartment,-21842,-3869,1,0,0,0,High skill tech staff,2.0,lowest,highest,low,0
+1,0,1,0,157500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-17524,-2182,1,1,1,0,Laborers,2.0,medium,medium,lowest,0
+1,0,1,1,157500.0,State servant,Higher education,Married,House / apartment,-15645,-4280,1,0,0,0,Core staff,3.0,medium,medium,low,1
+1,1,1,0,360000.0,Pensioner,Higher education,Married,House / apartment,-21269,365243,1,0,1,0,,2.0,highest,high,lowest,0
+1,0,1,0,90000.0,Pensioner,Secondary / secondary special,Civil marriage,House / apartment,-20032,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+0,1,1,1,382500.0,Working,Higher education,Married,House / apartment,-16269,-2728,1,0,0,0,Managers,3.0,highest,medium,lowest,0
+1,0,1,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-20463,-2319,1,0,0,0,Cleaning staff,2.0,low,high,lowest,0
+1,1,1,0,225000.0,Pensioner,Higher education,Married,House / apartment,-23486,365243,1,0,0,0,,2.0,high,highest,lowest,0
+0,1,1,0,112500.0,Working,Secondary / secondary special,Married,House / apartment,-10361,-269,1,1,0,0,Drivers,2.0,lowest,lowest,lowest,0
+1,0,1,0,103500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-17007,-1569,1,1,1,0,Sales staff,2.0,lowest,medium,lowest,0
+0,1,1,0,315000.0,Working,Secondary / secondary special,Married,House / apartment,-14170,-921,1,0,0,0,Managers,2.0,highest,low,lowest,0
+0,0,0,0,306000.0,Working,Secondary / secondary special,Married,House / apartment,-18635,-8643,1,0,0,0,Managers,2.0,highest,high,medium,0
+0,1,1,0,225000.0,Working,Higher education,Single / not married,With parents,-9444,-663,1,1,1,0,,1.0,high,lowest,lowest,0
+1,0,1,0,157500.0,State servant,Secondary / secondary special,Married,House / apartment,-18008,-2361,1,1,0,0,,2.0,medium,high,lowest,0
+1,1,0,0,180000.0,State servant,Secondary / secondary special,Married,House / apartment,-14732,-4491,1,0,0,0,Core staff,2.0,medium,medium,low,0
+1,1,1,1,67500.0,Working,Secondary / secondary special,Married,House / apartment,-12821,-931,1,0,1,1,Laborers,3.0,lowest,low,lowest,0
+0,0,0,0,180000.0,Commercial associate,Incomplete higher,Married,House / apartment,-11223,-2326,1,0,0,0,,2.0,medium,low,lowest,0
+1,0,1,0,157500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-18313,-4946,1,0,0,0,Core staff,1.0,medium,high,low,0
+0,1,1,2,247500.0,Working,Secondary / secondary special,Married,House / apartment,-17320,-535,1,0,0,0,Laborers,4.0,high,medium,lowest,1
+0,0,1,1,180000.0,Working,Higher education,Married,With parents,-15670,-1654,1,0,0,0,Cooking staff,3.0,medium,medium,lowest,0
+0,1,1,0,180000.0,Working,Secondary / secondary special,Married,House / apartment,-11222,-1386,1,0,0,0,Drivers,2.0,medium,low,lowest,1
+0,1,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-16507,-4331,1,0,0,0,Drivers,2.0,high,medium,low,0
+1,0,1,0,157500.0,Working,Higher education,Single / not married,House / apartment,-11511,-519,1,0,0,0,High skill tech staff,1.0,medium,low,lowest,0
+0,1,0,0,306000.0,Working,Secondary / secondary special,Married,House / apartment,-16011,-1649,1,0,0,0,Managers,2.0,highest,medium,lowest,0
+0,1,0,0,315000.0,Commercial associate,Higher education,Married,House / apartment,-13937,-4853,1,1,1,0,Managers,2.0,highest,low,low,0
+0,1,0,2,180000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-14452,-4249,1,0,0,0,Drivers,1.0,medium,low,low,1
+1,0,0,1,180000.0,Working,Secondary / secondary special,Single / not married,Rented apartment,-13100,-2013,1,0,0,1,,2.0,medium,low,lowest,0
+0,1,1,2,225000.0,Working,Secondary / secondary special,Married,House / apartment,-14923,-5434,1,1,1,0,,4.0,high,medium,low,0
+1,0,0,1,202500.0,Working,Secondary / secondary special,Separated,House / apartment,-13939,-134,1,0,0,0,Laborers,2.0,high,low,lowest,0
+0,0,0,1,292500.0,State servant,Secondary / secondary special,Married,House / apartment,-15437,-7835,1,0,1,0,,3.0,highest,medium,medium,0
+1,0,1,2,157500.0,State servant,Higher education,Married,House / apartment,-15499,-1287,1,1,1,0,Core staff,4.0,medium,medium,lowest,0
+1,0,1,0,180000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22115,365243,1,0,1,0,,2.0,medium,highest,lowest,0
+1,0,1,0,165600.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-21383,365243,1,0,1,0,,1.0,medium,high,lowest,0
+1,1,0,0,135000.0,Working,Secondary / secondary special,Married,House / apartment,-19010,-6761,1,1,1,0,Cleaning staff,2.0,low,high,medium,0
+0,1,1,0,135000.0,Pensioner,Higher education,Married,House / apartment,-23211,365243,1,0,0,0,,2.0,low,highest,lowest,0
+0,1,1,0,202500.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-15973,-2026,1,0,0,1,Drivers,2.0,high,medium,lowest,0
+1,0,1,0,90000.0,State servant,Secondary / secondary special,Separated,House / apartment,-14271,-302,1,0,0,0,,1.0,lowest,low,lowest,0
+0,1,1,0,315000.0,Working,Higher education,Married,House / apartment,-8440,-1206,1,0,0,0,Sales staff,2.0,highest,lowest,lowest,0
+0,1,1,0,360000.0,Working,Higher education,Married,House / apartment,-19958,-7465,1,0,0,0,Laborers,2.0,highest,high,medium,0
+0,0,1,1,202500.0,State servant,Higher education,Married,House / apartment,-10756,-2355,1,0,0,0,Core staff,3.0,high,lowest,lowest,0
+1,0,1,0,67500.0,Working,Secondary / secondary special,Single / not married,House / apartment,-13621,-852,1,0,0,0,Accountants,1.0,lowest,low,lowest,0
+0,1,1,0,292500.0,Working,Higher education,Married,House / apartment,-21055,-808,1,0,0,0,Drivers,2.0,highest,high,lowest,1
+1,0,1,0,202500.0,Working,Secondary / secondary special,Separated,House / apartment,-21878,-7851,1,0,0,0,Cleaning staff,1.0,high,highest,medium,0
+1,1,1,0,180000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-18667,-2150,1,1,0,0,Managers,2.0,medium,high,lowest,0
+1,0,0,0,157500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-19453,-3680,1,0,0,0,Accountants,2.0,medium,high,low,0
+1,0,0,0,126000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21875,365243,1,0,0,0,,2.0,low,highest,lowest,0
+0,1,1,0,247500.0,Commercial associate,Higher education,Married,House / apartment,-19796,-1200,1,0,0,1,High skill tech staff,2.0,high,high,lowest,1
+1,1,1,0,162000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-18071,-2822,1,0,0,0,Laborers,1.0,medium,high,lowest,0
+1,0,1,0,81000.0,Pensioner,Secondary / secondary special,Separated,House / apartment,-23137,365243,1,0,0,0,,1.0,lowest,highest,lowest,0
+0,0,0,0,189000.0,State servant,Secondary / secondary special,Married,House / apartment,-15752,-2770,1,0,0,0,Core staff,2.0,high,medium,lowest,0
+1,0,1,0,94500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23408,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+1,0,1,0,171000.0,Working,Higher education,Single / not married,House / apartment,-10224,-2073,1,0,0,0,Laborers,1.0,medium,lowest,lowest,0
+1,0,1,0,225000.0,Working,Secondary / secondary special,Married,House / apartment,-17375,-3759,1,0,0,0,,2.0,high,medium,low,0
+1,1,0,0,54000.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22983,365243,1,0,0,0,,2.0,lowest,highest,lowest,0
+0,1,1,1,157500.0,Working,Secondary / secondary special,Married,House / apartment,-17991,-3304,1,0,0,0,,3.0,medium,high,low,0
+1,0,0,1,180000.0,Commercial associate,Secondary / secondary special,Civil marriage,Municipal apartment,-10928,-1558,1,0,0,0,Sales staff,3.0,medium,lowest,lowest,0
+0,1,1,2,900000.0,Commercial associate,Higher education,Married,House / apartment,-9889,-1000,1,0,0,0,Managers,4.0,highest,lowest,lowest,1
+0,0,1,0,180000.0,Working,Incomplete higher,Single / not married,House / apartment,-10305,-210,1,0,0,1,Laborers,1.0,medium,lowest,lowest,0
+1,0,1,0,225000.0,Commercial associate,Higher education,Married,House / apartment,-11591,-2501,1,0,0,0,,2.0,high,low,lowest,0
+0,1,1,0,112500.0,Working,Secondary / secondary special,Civil marriage,House / apartment,-13322,-808,1,0,0,0,Low-skill Laborers,2.0,lowest,low,lowest,0
+0,1,0,0,180000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-10276,-2607,1,0,1,0,Laborers,1.0,medium,lowest,lowest,0
+0,1,1,0,135000.0,Commercial associate,Incomplete higher,Civil marriage,House / apartment,-9497,-1052,1,0,0,0,Laborers,2.0,low,lowest,lowest,0
+0,1,0,0,157500.0,State servant,Secondary / secondary special,Married,House / apartment,-14926,-3242,1,1,0,0,,2.0,medium,medium,lowest,0
+0,1,1,2,243000.0,State servant,Higher education,Married,House / apartment,-10467,-200,1,0,0,0,Core staff,4.0,high,lowest,lowest,0
+0,0,0,0,135000.0,Commercial associate,Higher education,Married,House / apartment,-9493,-130,1,0,0,1,Cooking staff,2.0,low,lowest,lowest,0
+1,1,1,1,112500.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-11660,-807,1,0,0,0,Core staff,3.0,lowest,low,lowest,0
+1,0,1,1,315000.0,Working,Secondary / secondary special,Married,House / apartment,-16359,-4342,1,0,1,0,Core staff,3.0,highest,medium,low,0
+1,0,1,0,180000.0,Pensioner,Higher education,Married,House / apartment,-20135,365243,1,0,1,0,,2.0,medium,high,lowest,0
+1,0,1,0,315000.0,Working,Secondary / secondary special,Separated,House / apartment,-15256,-3291,1,0,0,0,Laborers,1.0,highest,medium,low,0
+1,0,0,0,99000.0,Working,Higher education,Married,House / apartment,-14661,-5521,1,0,0,0,,2.0,lowest,medium,low,0
+0,0,1,2,135000.0,Working,Secondary / secondary special,Married,House / apartment,-16280,-475,1,0,0,0,Security staff,4.0,low,medium,lowest,0
+1,1,0,0,315000.0,Commercial associate,Higher education,Married,House / apartment,-19495,-1678,1,0,1,0,Accountants,2.0,highest,high,lowest,0
+1,0,1,0,202500.0,Working,Secondary / secondary special,Separated,House / apartment,-13920,-904,1,0,0,0,Core staff,1.0,high,low,lowest,1
+1,0,1,0,112500.0,State servant,Secondary / secondary special,Married,House / apartment,-17493,-3694,1,0,0,1,Medicine staff,2.0,lowest,medium,low,0
+1,1,1,2,180000.0,Working,Higher education,Single / not married,Municipal apartment,-10433,-3019,1,0,0,0,Laborers,3.0,medium,lowest,lowest,0
+0,1,1,2,157500.0,Commercial associate,Higher education,Married,With parents,-14192,-626,1,0,0,0,Drivers,4.0,medium,low,lowest,0
+0,0,1,0,315000.0,Commercial associate,Higher education,Single / not married,House / apartment,-10499,-545,1,0,0,1,Laborers,1.0,highest,lowest,lowest,1
+1,0,1,0,189000.0,Pensioner,Secondary / secondary special,Widow,House / apartment,-20858,365243,1,0,0,0,,1.0,high,high,lowest,0
+1,0,1,0,225000.0,Working,Secondary / secondary special,Married,With parents,-16110,-401,1,0,0,0,Cooking staff,2.0,high,medium,lowest,0
+1,0,1,0,81000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-19210,-2454,1,0,1,0,,1.0,lowest,high,lowest,0
+0,0,0,0,180000.0,Working,Higher education,Single / not married,House / apartment,-9503,-354,1,1,1,0,Managers,1.0,medium,lowest,lowest,0
+1,1,0,1,180000.0,Commercial associate,Higher education,Married,House / apartment,-13809,-774,1,0,1,0,Accountants,3.0,medium,low,lowest,0
+1,0,1,0,202500.0,Working,Secondary / secondary special,Separated,House / apartment,-18247,-9599,1,1,1,0,Cleaning staff,1.0,high,high,high,0
+1,0,1,0,49500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-21768,365243,1,0,1,0,,2.0,lowest,highest,lowest,0
+0,1,1,0,216000.0,Commercial associate,Higher education,Married,House / apartment,-19147,-1868,1,0,1,0,Laborers,2.0,high,high,lowest,0
+0,1,1,0,157500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-19572,365243,1,0,0,0,,2.0,medium,high,lowest,0
+1,1,1,0,157500.0,Commercial associate,Secondary / secondary special,Single / not married,House / apartment,-18806,-319,1,0,0,0,Sales staff,1.0,medium,high,lowest,0
+1,0,1,0,270000.0,Working,Secondary / secondary special,Married,House / apartment,-18114,-10121,1,0,0,0,High skill tech staff,2.0,highest,high,high,0
+1,0,0,0,76500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-20592,365243,1,0,1,0,,2.0,lowest,high,lowest,0
+0,1,1,1,315000.0,Working,Secondary / secondary special,Married,House / apartment,-20302,-973,1,0,0,0,Drivers,3.0,highest,high,lowest,0
+0,1,1,2,112500.0,Working,Secondary / secondary special,Married,House / apartment,-12070,-249,1,1,0,0,,4.0,lowest,low,lowest,0
+1,0,1,1,135000.0,Working,Secondary / secondary special,Married,House / apartment,-10112,-3170,1,1,1,0,Laborers,3.0,low,lowest,lowest,0
+1,0,1,0,112500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-18759,365243,1,0,0,0,,2.0,lowest,high,lowest,0
+0,0,0,0,135000.0,Working,Secondary / secondary special,Single / not married,House / apartment,-9167,-947,1,0,0,0,Cooking staff,1.0,low,lowest,lowest,0
+0,0,1,2,112500.0,Working,Secondary / secondary special,Married,House / apartment,-11964,-4280,1,0,0,0,Laborers,4.0,lowest,low,low,0
+1,0,1,0,171000.0,Working,Secondary / secondary special,Married,House / apartment,-17076,-8041,1,0,0,0,Cooking staff,2.0,medium,medium,medium,0
+1,0,0,0,90000.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-10449,-429,1,0,0,0,,2.0,lowest,lowest,lowest,0
+1,0,0,0,157500.0,Pensioner,Secondary / secondary special,Married,House / apartment,-22717,365243,1,0,0,0,,2.0,medium,highest,lowest,1
+1,1,1,0,135000.0,Working,Lower secondary,Married,House / apartment,-16413,-622,1,0,1,0,High skill tech staff,2.0,low,medium,lowest,0
+0,0,1,1,112500.0,Working,Higher education,Married,House / apartment,-13682,-5460,1,1,1,0,,3.0,lowest,low,low,0
+1,0,0,2,112500.0,Commercial associate,Secondary / secondary special,Married,House / apartment,-15162,-1810,1,1,0,0,,4.0,lowest,medium,lowest,0
+0,1,1,0,131400.0,Pensioner,Secondary / secondary special,Married,House / apartment,-23646,365243,1,0,0,0,,2.0,low,highest,lowest,0
+1,0,1,1,180000.0,Commercial associate,Secondary / secondary special,Civil marriage,House / apartment,-11920,-2967,1,0,0,0,Realty agents,3.0,medium,low,lowest,0
